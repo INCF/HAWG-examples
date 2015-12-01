@@ -1,0 +1,83 @@
+{
+   "name" : "AAL2",
+   "contact" : "aal2.gin.brainatlas@gmail.com",
+   "filename" : "ROI_MNI_V5.nii",
+   "hard_label" : true,
+   "license" : "",
+   "citation" : "doi:10.1016/j.neuroimage.2015.07.075;doi:10.1006/nimg.2001.0978",
+   "version" : "2",
+   "provenance" : {
+  	"title": "Implementation of a new parcellation of the orbitofrontal cortex in the automated anatomical labeling atlas.",
+  	"authors" : "Rolls ET, Joliot M & Tzourio-Mazoyer N.",
+  	"year" : 2015,
+  	"description" : "Manual labeling of the Colin27 dataset.",
+  	"source_url" : "http://www.gin.cnrs.fr/AAL2"
+   },
+   "tags" : {
+  	"temporal_lobe" : {
+     	"name" : "Temporal lobe",
+     	"labels" : [
+        	"T1L",
+        	"T1R",
+        	"T1AL",
+        	"T1AR",
+        	"T2L",
+        	"T2R",
+        	"T2AL",
+        	"T2AR",
+        	"T3L",
+        	"T3R"
+     	]
+  	},
+  	"right" : {
+     	"name" : "Right brain",
+     	"labels" : [
+        	"FAR",
+        	"F1_2R",
+[...]        
+	"CER9R",
+        	"CER10R"
+     	]
+  	},
+  	"left" : {
+     	"labels" : [
+        	"FAL",
+[...]
+	"CER9L",
+        	"CER10L"
+     	],
+     	"name" : "Left brain"
+  	},
+  	"occipital_lobe" : {
+     	"name" : "Occipital lobe",
+     	"labels" : [
+        	"O1L",
+        	"O1R",
+        	"O2L",
+        	"O2R",
+        	"O3L",
+        	"O3R"
+     	]
+  	},
+  	"hippocampus" : {
+     	"name" : "Hippocampus",
+     	"labels" : [
+        	"HIPPOL",
+        	"HIPPOR"
+     	],
+     	"citation" : ""
+  	}
+   },
+   "structures" : {
+  	"FAL" : {
+        	"display_name":"Precentral_L",
+        	"data_key":2001
+  	},
+[...]
+	"VER10" : {
+        	"display_name":"Vermis_10",
+        	"data_key":9170
+  	}
+   }
+}
+
