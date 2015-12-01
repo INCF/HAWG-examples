@@ -1,0 +1,53 @@
+header = {"name": "Harvard-Oxford Cortical and Subcortical Probabilistic Atlas",
+          "description": "The HAWG version of the atlas",
+          "species": "Homo sapiens",
+          "version": "0.0.1",
+          "license": "FSL license",
+          "provenance": "from FSL 5.0.7",
+          "stored_data_type": "volume",
+          "coordinate_system": {
+                "display_name": "MNI152-clarify",
+                "preferred-template": "$FSLDIR/data/standard/MNI152_T1_1mm.nii.gz",
+                "alternative-templates": ["$FSLDIR/data/standard/MNI152_T1_2mm.nii.gz"]
+                },
+        }
+
+
+structures = {'id1_MTG': {'example_coordinate': [48, 94, 35], 
+             'long_name': 'Middle Temporal Gyrus, posterior division',
+             "description": "Something jason comes up with",
+             "example_color": [23, 86, 96],
+             "discrete_index": 12, /*former data_key */
+             "tags": ["Middle_Temporal_Gyrus", "Bilateral", "threshold0"]},
+             "data_location": {"stored_data_location": "$FSLDIR/data/atlases/HarvardOxford/HarvardOxford-cort-maxprob-thr0-1mm.nii.gz",
+                              }
+ }
+
+{'id0_MTG': {'example_coordinate': [48, 94, 35], 
+      'long_name': 'Middle Temporal Gyrus, posterior division',
+      "description": "Something jason comes up with",
+      "example_color": [23, 46, 96],
+      "tags": ["Middle_Temporal_Gyrus", "Bilateral"],
+      "data_location": {"stored_data_location": 
+"$FSLDIR/data/atlases/HarvardOxford/HarvardOxford-cort-prob-1mm.nii.gz",
+                        "dimension_indexed": 3,
+                        "dimension_index": 11,
+                        "dimension_base": 0
+                       }},
+ 'id2_MTG': {'example_coordinate': [74, 59, 26], 
+      'long_name': 'Middle Temporal Gyrus, anterior division',
+      "description": "Something jason comes up with",
+      "example_color": [23, 26, 96],
+      "tags": ["Middle_Temporal_Gyrus", "Bilateral"],
+      "data_location": {"stored_data_location": "$FSLDIR/data/atlases/HarvardOxford/HarvardOxford-cort-prob-1mm.nii.gz",
+                        "dimension": 4,
+                        "dimension_index": 10,
+                        "dimension_base": 0
+                       }}
+ })
+
+tags = {'Middle_Temporal_Gyrus': {"display_name": "Middle Temporal Gyrus",
+                                  "example_colour": [255, 255, 0],
+                                  "description": "Some other description from Jason"
+                                 }
+       }
