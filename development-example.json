@@ -1,0 +1,96 @@
+/* 
+template_T2.nii.gz -  T2w average
+brainmask.nii.gz - hard label, for brain
+mask.nii.gz - hard label for some other mask
+brainstem.nii.gz - probabilistic atlas of brainstem
+cerebellum.nii.gz - …. of cerebellum
+cortex.nii.gz -  .. of cortex
+csf.nii.gz - .. of CSF
+dgm.nii.gz - .. of deep gray metter
+wm.nii.gz - … of white matter
+
+Each file is 4D (spatial + time )
+*/
+
+{
+	“name”: “Neonatal Brain Atlas”
+	“description”: “A dynamic, probabilistic atlas for any chosen stage of neonatal brain development. The atlas is created from the segmentations of 153 neonatal subjects at different ages using a kernel-based smoothing method. For any given age, an average intensity template as well as the corresponding tissue probability maps with the correct sizes and shapes of the structures can be dynamically generated. The resulting atlas provides prior tissue probability maps for six structures - cortex, white matter, subcortical gray matter, brainstem and cerebellum, for ages of 29 to 44 weeks of gestation”,
+	“coordinate-definition”: “N/A”
+“location”: “http://biomedic.doc.ic.ac.uk/brain-development/index.php?n=Main.Neonatal”,
+% alternate to above boolean selections is to consider fie type declaration below:
+
+	“axes” : [  
+{“name”: “spatial”,units:”mm”}
+{“name”: “spatial”,units:”mm”}
+{“name”: “spatial”,units:”mm”}
+{“name”: “time”, units:”week”, coordinates:[ 26,27,28,29,30…] }
+]
+“version”: “1.0.0alpha”
+
+“resources”: {
+/* a resource file only contains one modality */
+	 “t2w”: {
+		“name”: “Average T2w”
+		“locations”: “file://template_T2.nii.gz”
+“resource format”: “nifti”,   /* optional */
+“type”: “anatomical”,
+		},
+[...]
+“dgm”: {
+		“name”: “probability of dgm”
+		“locations”: “file://dgm.nii.gz”
+“resource format”: “nifti”   /* optional */
+“type”: “continuous”,
+		},
+“wm”: {
+		“name”: “probability of wm”
+		“locations”: “file://wm.nii.gz”
+“resource format”: “nifti”   /* optional */
+“type”: “continuous”,
+		},
+},
+
+“structures”: {
+“brain”: {“display_name“: “Brain”,
+“resource”: “brain”,
+	“example_coord”: [45,55,77],
+	“data-key”: 1,
+	“tags”: [“”],
+},
+[...]
+“cortex”: {“display_name“: “Cerebral cortex”,
+“resource”: “cortex”,
+	“example_coord”: [45,55,77],
+	“tags”: [“brain”,”gm”],
+},
+“dgm”: {“display_name“: “Deep gray matter”,
+“resource”: “dgm”,
+	“example_coord”: [45,55,77],
+	“tags”: [“brain”,”gm”],
+},
+“wm”: {“display_name“: “White matter”,
+“resource”: “dgm”,
+	“example_coord”: [45,55,77],
+	“tags”: [“brain”],
+},
+“csf”: {“display_name“: “Cerebro-spinal fluid”,
+“resource”: “csf”,
+	“example_coord”: [45,55,77],
+	“tags”: [”brain”],
+}
+},
+
+“tags”: {
+“brain”: {“display_name”: “Brain”,
+	“example_coord”: [0,0,0],
+	description: “All structures inside brain”,
+},
+
+“gm”: {“display_name”: “Gray Matter”,
+	“example_coord”: [6,6,6],
+	“example_colour”: [255,255,0],
+	description: “All grey matter structures”,
+},
+}
+
+
