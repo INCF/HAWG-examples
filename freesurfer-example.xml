@@ -1,0 +1,294 @@
+<INCF-Extension Version="1" DataType="Discrete" ExtraDims="Named">
+	<MetaData>
+    	<MD>
+        	<Name>ProgramProvenance</Name>
+        	<Value>
+            	GNU bash, version 4.3.11(1)-release (x86_64-pc-linux-gnu)
+            	gedit 3.10.4
+        	</Value>
+    	</MD>
+    	<MD>
+        	<Name>ModificationEpoch</Name>
+        	<Value>1441244003</Value>
+    	</MD>
+	</MetaData>
+	<MapInfo Name="freesurfer_aparc2009s">
+    	<MetaData>
+        	<MD>
+            	<Name>Citation</Name>
+            	<Value>doi: 10.1016/j.neuroimage.2010.06.010.</Value>
+        	</MD>
+    	</MetaData>
+    	<LabelTable UnlabeledID="0">
+        	<Structures>
+            	<Label ID="11101" Tags="Left" Name="ctx_lh_G_and_S_frontomargin"/>
+            	<Label ID="12101" Tags="Right" Name="ctx_rh_G_and_S_frontomargin"/>
+            	<Label ID="11102" Tags="Left" Name="ctx_lh_G_and_S_occipital_inf"/>
+            	<Label ID="12102" Tags="Right" Name="ctx_rh_G_and_S_occipital_inf"/>
+            	<Label ID="11103" Tags="Left" Name="ctx_lh_G_and_S_paracentral"/>
+            	<Label ID="12103" Tags="Right" Name="ctx_rh_G_and_S_paracentral"/>
+            	<Label ID="11104" Tags="Left" Name="ctx_lh_G_and_S_subcentral"/>
+            	<Label ID="12104" Tags="Right" Name="ctx_rh_G_and_S_subcentral"/>
+            	<Label ID="11105" Tags="Left" Name="ctx_lh_G_and_S_transv_frontopol"/>
+            	<Label ID="12105" Tags="Right" Name="ctx_rh_G_and_S_transv_frontopol"/>
+            	<Label ID="11106" Tags="Left" Name="ctx_lh_G_and_S_cingul-Ant"/>
+            	<Label ID="12106" Tags="Right" Name="ctx_rh_G_and_S_cingul-Ant"/>
+            	<Label ID="11107" Tags="Left" Name="ctx_lh_G_and_S_cingul-Mid-Ant"/>
+            	<Label ID="12107" Tags="Right" Name="ctx_rh_G_and_S_cingul-Mid-Ant"/>
+            	<Label ID="11108" Tags="Left" Name="ctx_lh_G_and_S_cingul-Mid-Post"/>
+            	<Label ID="12108" Tags="Right" Name="ctx_rh_G_and_S_cingul-Mid-Post"/>
+            	<Label ID="11109" Tags="Left" Name="ctx_lh_G_cingul-Post-dorsal"/>
+            	<Label ID="12109" Tags="Right" Name="ctx_rh_G_cingul-Post-dorsal"/>
+            	<Label ID="11110" Tags="Left" Name="ctx_lh_G_cingul-Post-ventral"/>
+            	<Label ID="12110" Tags="Right" Name="ctx_rh_G_cingul-Post-ventral"/>
+            	<Label ID="11111" Tags="Left" Name="ctx_lh_G_cuneus"/>
+            	<Label ID="12111" Tags="Right" Name="ctx_rh_G_cuneus"/>
+            	<Label ID="11112" Tags="Left" Name="ctx_lh_G_front_inf-Opercular"/>
+            	<Label ID="12112" Tags="Right" Name="ctx_rh_G_front_inf-Opercular"/>
+            	<Label ID="11113" Tags="Left" Name="ctx_lh_G_front_inf-Orbital"/>
+            	<Label ID="12113" Tags="Right" Name="ctx_rh_G_front_inf-Orbital"/>
+            	<Label ID="11114" Tags="Left" Name="ctx_lh_G_front_inf-Triangul"/>
+            	<Label ID="12114" Tags="Right" Name="ctx_rh_G_front_inf-Triangul"/>
+            	<Label ID="11115" Tags="Left" Name="ctx_lh_G_front_middle"/>
+            	<Label ID="12115" Tags="Right" Name="ctx_rh_G_front_middle"/>
+            	<Label ID="11116" Tags="Left" Name="ctx_lh_G_front_sup"/>
+            	<Label ID="12116" Tags="Right" Name="ctx_rh_G_front_sup"/>
+            	<Label ID="11117" Tags="Left" Name="ctx_lh_G_Ins_lg_and_S_cent_ins"/>
+            	<Label ID="12117" Tags="Right" Name="ctx_rh_G_Ins_lg_and_S_cent_ins"/>
+            	<Label ID="11118" Tags="Left" Name="ctx_lh_G_insular_short"/>
+            	<Label ID="12118" Tags="Right" Name="ctx_rh_G_insular_short"/>
+            	<Label ID="11119" Tags="Left" Name="ctx_lh_G_occipital_middle"/>
+            	<Label ID="12119" Tags="Right" Name="ctx_rh_G_occipital_middle"/>
+            	<Label ID="11120" Tags="Left" Name="ctx_lh_G_occipital_sup"/>
+            	<Label ID="12120" Tags="Right" Name="ctx_rh_G_occipital_sup"/>
+            	<Label ID="11121" Tags="Left" Name="ctx_lh_G_oc-temp_lat-fusifor"/>
+            	<Label ID="12121" Tags="Right" Name="ctx_rh_G_oc-temp_lat-fusifor"/>
+            	<Label ID="11122" Tags="Left" Name="ctx_lh_G_oc-temp_med-Lingual"/>
+            	<Label ID="12122" Tags="Right" Name="ctx_rh_G_oc-temp_med-Lingual"/>
+            	<Label ID="11123" Tags="Left" Name="ctx_lh_G_oc-temp_med-Parahip"/>
+            	<Label ID="12123" Tags="Right" Name="ctx_rh_G_oc-temp_med-Parahip"/>
+            	<Label ID="11124" Tags="Left" Name="ctx_lh_G_orbital"/>
+            	<Label ID="12124" Tags="Right" Name="ctx_rh_G_orbital"/>
+            	<Label ID="11125" Tags="Left" Name="ctx_lh_G_pariet_inf-Angular"/>
+            	<Label ID="12125" Tags="Right" Name="ctx_rh_G_pariet_inf-Angular"/>
+            	<Label ID="11126" Tags="Left" Name="ctx_lh_G_pariet_inf-Supramar"/>
+            	<Label ID="12126" Tags="Right" Name="ctx_rh_G_pariet_inf-Supramar"/>
+            	<Label ID="11127" Tags="Left" Name="ctx_lh_G_parietal_sup"/>
+            	<Label ID="12127" Tags="Right" Name="ctx_rh_G_parietal_sup"/>
+            	<Label ID="11128" Tags="Left" Name="ctx_lh_G_postcentral"/>
+            	<Label ID="12128" Tags="Right" Name="ctx_rh_G_postcentral"/>
+            	<Label ID="11129" Tags="Left" Name="ctx_lh_G_precentral"/>
+            	<Label ID="12129" Tags="Right" Name="ctx_rh_G_precentral"/>
+            	<Label ID="11130" Tags="Left" Name="ctx_lh_G_precuneus"/>
+            	<Label ID="12130" Tags="Right" Name="ctx_rh_G_precuneus"/>
+            	<Label ID="11131" Tags="Left" Name="ctx_lh_G_rectus"/>
+            	<Label ID="12131" Tags="Right" Name="ctx_rh_G_rectus"/>
+            	<Label ID="11132" Tags="Left" Name="ctx_lh_G_subcallosal"/>
+            	<Label ID="12132" Tags="Right" Name="ctx_rh_G_subcallosal"/>
+            	<Label ID="11133" Tags="Left" Name="ctx_lh_G_temp_sup-G_T_transv"/>
+            	<Label ID="12133" Tags="Right" Name="ctx_rh_G_temp_sup-G_T_transv"/>
+            	<Label ID="11134" Tags="Left" Name="ctx_lh_G_temp_sup-Lateral"/>
+            	<Label ID="12134" Tags="Right" Name="ctx_rh_G_temp_sup-Lateral"/>
+            	<Label ID="11135" Tags="Left" Name="ctx_lh_G_temp_sup-Plan_polar"/>
+            	<Label ID="12135" Tags="Right" Name="ctx_rh_G_temp_sup-Plan_polar"/>
+            	<Label ID="11136" Tags="Left" Name="ctx_lh_G_temp_sup-Plan_tempo"/>
+            	<Label ID="12136" Tags="Right" Name="ctx_rh_G_temp_sup-Plan_tempo"/>
+            	<Label ID="11137" Tags="Left" Name="ctx_lh_G_temporal_inf"/>
+            	<Label ID="12137" Tags="Right" Name="ctx_rh_G_temporal_inf"/>
+            	<Label ID="11138" Tags="Left" Name="ctx_lh_G_temporal_middle"/>
+            	<Label ID="12138" Tags="Right" Name="ctx_rh_G_temporal_middle"/>
+            	<Label ID="11139" Tags="Left" Name="ctx_lh_Lat_Fis-ant-Horizont"/>
+            	<Label ID="12139" Tags="Right" Name="ctx_rh_Lat_Fis-ant-Horizont"/>
+            	<Label ID="11140" Tags="Left" Name="ctx_lh_Lat_Fis-ant-Vertical"/>
+            	<Label ID="12140" Tags="Right" Name="ctx_rh_Lat_Fis-ant-Vertical"/>
+            	<Label ID="11141" Tags="Left" Name="ctx_lh_Lat_Fis-post"/>
+            	<Label ID="12141" Tags="Right" Name="ctx_rh_Lat_Fis-post"/>
+            	<Label ID="11143" Tags="Left" Name="ctx_lh_Pole_occipital"/>
+            	<Label ID="12143" Tags="Right" Name="ctx_rh_Pole_occipital"/>
+            	<Label ID="11144" Tags="Left" Name="ctx_lh_Pole_temporal"/>
+            	<Label ID="12144" Tags="Right" Name="ctx_rh_Pole_temporal"/>
+            	<Label ID="11145" Tags="Left" Name="ctx_lh_S_calcarine"/>
+            	<Label ID="12145" Tags="Right" Name="ctx_rh_S_calcarine"/>
+            	<Label ID="11146" Tags="Left" Name="ctx_lh_S_central"/>
+            	<Label ID="12146" Tags="Right" Name="ctx_rh_S_central"/>
+            	<Label ID="11147" Tags="Left" Name="ctx_lh_S_cingul-Marginalis"/>
+            	<Label ID="12147" Tags="Right" Name="ctx_rh_S_cingul-Marginalis"/>
+            	<Label ID="11148" Tags="Left" Name="ctx_lh_S_circular_insula_ant"/>
+            	<Label ID="12148" Tags="Right" Name="ctx_rh_S_circular_insula_ant"/>
+            	<Label ID="11149" Tags="Left" Name="ctx_lh_S_circular_insula_inf"/>
+            	<Label ID="12149" Tags="Right" Name="ctx_rh_S_circular_insula_inf"/>
+            	<Label ID="11150" Tags="Left" Name="ctx_lh_S_circular_insula_sup"/>
+            	<Label ID="12150" Tags="Right" Name="ctx_rh_S_circular_insula_sup"/>
+            	<Label ID="11151" Tags="Left" Name="ctx_lh_S_collat_transv_ant"/>
+            	<Label ID="12151" Tags="Right" Name="ctx_rh_S_collat_transv_ant"/>
+            	<Label ID="11152" Tags="Left" Name="ctx_lh_S_collat_transv_post"/>
+            	<Label ID="12152" Tags="Right" Name="ctx_rh_S_collat_transv_post"/>
+            	<Label ID="11153" Tags="Left" Name="ctx_lh_S_front_inf"/>
+            	<Label ID="12153" Tags="Right" Name="ctx_rh_S_front_inf"/>
+            	<Label ID="11154" Tags="Left" Name="ctx_lh_S_front_middle"/>
+            	<Label ID="12154" Tags="Right" Name="ctx_rh_S_front_middle"/>
+            	<Label ID="11155" Tags="Left" Name="ctx_lh_S_front_sup"/>
+            	<Label ID="12155" Tags="Right" Name="ctx_rh_S_front_sup"/>
+            	<Label ID="11156" Tags="Left" Name="ctx_lh_S_interm_prim-Jensen"/>
+            	<Label ID="12156" Tags="Right" Name="ctx_rh_S_interm_prim-Jensen"/>
+            	<Label ID="11157" Tags="Left" Name="ctx_lh_S_intrapariet_and_P_tran"/>
+            	<Label ID="12157" Tags="Right" Name="ctx_rh_S_intrapariet_and_P_tran"/>
+            	<Label ID="11158" Tags="Left" Name="ctx_lh_S_oc_middle_and_Lunatus"/>
+            	<Label ID="12158" Tags="Right" Name="ctx_rh_S_oc_middle_and_Lunatus"/>
+            	<Label ID="11159" Tags="Left" Name="ctx_lh_S_oc_sup_and_transversal"/>
+            	<Label ID="12159" Tags="Right" Name="ctx_rh_S_oc_sup_and_transversal"/>
+            	<Label ID="11160" Tags="Left" Name="ctx_lh_S_occipital_ant"/>
+            	<Label ID="12160" Tags="Right" Name="ctx_rh_S_occipital_ant"/>
+            	<Label ID="11161" Tags="Left" Name="ctx_lh_S_oc-temp_lat"/>
+            	<Label ID="12161" Tags="Right" Name="ctx_rh_S_oc-temp_lat"/>
+            	<Label ID="11162" Tags="Left" Name="ctx_lh_S_oc-temp_med_and_Lingual"/>
+            	<Label ID="12162" Tags="Right" Name="ctx_rh_S_oc-temp_med_and_Lingual"/>
+            	<Label ID="11163" Tags="Left" Name="ctx_lh_S_orbital_lateral"/>
+            	<Label ID="12163" Tags="Right" Name="ctx_rh_S_orbital_lateral"/>
+            	<Label ID="11164" Tags="Left" Name="ctx_lh_S_orbital_med-olfact"/>
+            	<Label ID="12164" Tags="Right" Name="ctx_rh_S_orbital_med-olfact"/>
+            	<Label ID="11165" Tags="Left" Name="ctx_lh_S_orbital-H_Shaped"/>
+            	<Label ID="12165" Tags="Right" Name="ctx_rh_S_orbital-H_Shaped"/>
+            	<Label ID="11166" Tags="Left" Name="ctx_lh_S_parieto_occipital"/>
+            	<Label ID="12166" Tags="Right" Name="ctx_rh_S_parieto_occipital"/>
+            	<Label ID="11167" Tags="Left" Name="ctx_lh_S_pericallosal"/>
+            	<Label ID="12167" Tags="Right" Name="ctx_rh_S_pericallosal"/>
+            	<Label ID="11168" Tags="Left" Name="ctx_lh_S_postcentral"/>
+            	<Label ID="12168" Tags="Right" Name="ctx_rh_S_postcentral"/>
+            	<Label ID="11169" Tags="Left" Name="ctx_lh_S_precentral-inf-part"/>
+            	<Label ID="12169" Tags="Right" Name="ctx_rh_S_precentral-inf-part"/>
+            	<Label ID="11170" Tags="Left" Name="ctx_lh_S_precentral-sup-part"/>
+            	<Label ID="12170" Tags="Right" Name="ctx_rh_S_precentral-sup-part"/>
+            	<Label ID="11171" Tags="Left" Name="ctx_lh_S_suborbital"/>
+            	<Label ID="12171" Tags="Right" Name="ctx_rh_S_suborbital"/>
+            	<Label ID="11172" Tags="Left" Name="ctx_lh_S_subparietal"/>
+            	<Label ID="12172" Tags="Right" Name="ctx_rh_S_subparietal"/>
+            	<Label ID="11173" Tags="Left" Name="ctx_lh_S_temporal_inf"/>
+            	<Label ID="12173" Tags="Right" Name="ctx_rh_S_temporal_inf"/>
+            	<Label ID="11174" Tags="Left" Name="ctx_lh_S_temporal_sup"/>
+            	<Label ID="12174" Tags="Right" Name="ctx_rh_S_temporal_sup"/>
+            	<Label ID="11175" Tags="Left" Name="ctx_lh_S_temporal_transverse"/>
+            	<Label ID="12175" Tags="Right" Name="ctx_rh_S_temporal_transverse"/>
+        	</Structures>
+        	<Tags>
+            	<Tag Name="Whole_brain" Members="Left Right" ExampleCoord="0 0 0"/>
+        	</Tags>
+    	</LabelTable>
+	</MapInfo>
+	<MapInfo Name="freesurfer_aparc">
+    	<MetaData>
+        	<MD>
+            	<Name>Citation</Name>
+            	<Value>doi:10.1016/j.neuroimage.2006.01.021</Value>
+        	</MD>
+    	</MetaData>
+    	<LabelTable UnlabeledID="0">
+        	<Structures>
+            	<Label ID="1001" Tags="Left" Name="ctx-lh-bankssts" ColorRGB="0.098 0.392 0.157"/>
+            	<Label ID="2001" Tags="Right" Name="ctx-rh-bankssts"/>
+            	<Label ID="1002" Tags="Left" Name="ctx-lh-caudalanteriorcingulate"/>
+            	<Label ID="2002" Tags="Right" Name="ctx-rh-caudalanteriorcingulate"/>
+            	<Label ID="1003" Tags="Left" Name="ctx-lh-caudalmiddlefrontal"/>
+            	<Label ID="2003" Tags="Right" Name="ctx-rh-caudalmiddlefrontal"/>
+            	<Label ID="1005" Tags="Left" Name="ctx-lh-cuneus"/>
+            	<Label ID="2005" Tags="Right" Name="ctx-rh-cuneus"/>
+            	<Label ID="1006" Tags="Left" Name="ctx-lh-entorhinal"/>
+            	<Label ID="2006" Tags="Right" Name="ctx-rh-entorhinal"/>
+            	<Label ID="1007" Tags="Left" Name="ctx-lh-fusiform"/>
+            	<Label ID="2007" Tags="Right" Name="ctx-rh-fusiform"/>
+            	<Label ID="1008" Tags="Left" Name="ctx-lh-inferiorparietal"/>
+            	<Label ID="2008" Tags="Right" Name="ctx-rh-inferiorparietal"/>
+            	<Label ID="1009" Tags="Left" Name="ctx-lh-inferiortemporal"/>
+            	<Label ID="2009" Tags="Right" Name="ctx-rh-inferiortemporal"/>
+            	<Label ID="1010" Tags="Left" Name="ctx-lh-isthmuscingulate"/>
+            	<Label ID="2010" Tags="Right" Name="ctx-rh-isthmuscingulate"/>
+            	<Label ID="1011" Tags="Left" Name="ctx-lh-lateraloccipital"/>
+            	<Label ID="2011" Tags="Right" Name="ctx-rh-lateraloccipital"/>
+            	<Label ID="1012" Tags="Left" Name="ctx-lh-lateralorbitofrontal"/>
+            	<Label ID="2012" Tags="Right" Name="ctx-rh-lateralorbitofrontal"/>
+            	<Label ID="1013" Tags="Left" Name="ctx-lh-lingual"/>
+            	<Label ID="2013" Tags="Right" Name="ctx-rh-lingual"/>
+            	<Label ID="1014" Tags="Left" Name="ctx-lh-medialorbitofrontal"/>
+            	<Label ID="2014" Tags="Right" Name="ctx-rh-medialorbitofrontal"/>
+            	<Label ID="1015" Tags="Left" Name="ctx-lh-middletemporal"/>
+            	<Label ID="2015" Tags="Right" Name="ctx-rh-middletemporal"/>
+            	<Label ID="1016" Tags="Left" Name="ctx-lh-parahippocampal"/>
+            	<Label ID="2016" Tags="Right" Name="ctx-rh-parahippocampal"/>
+            	<Label ID="1017" Tags="Left" Name="ctx-lh-paracentral"/>
+            	<Label ID="2017" Tags="Right" Name="ctx-rh-paracentral"/>
+            	<Label ID="1018" Tags="Left" Name="ctx-lh-parsopercularis"/>
+            	<Label ID="2018" Tags="Right" Name="ctx-rh-parsopercularis"/>
+            	<Label ID="1019" Tags="Left" Name="ctx-lh-parsorbitalis"/>
+            	<Label ID="2019" Tags="Right" Name="ctx-rh-parsorbitalis"/>
+            	<Label ID="1020" Tags="Left" Name="ctx-lh-parstriangularis"/>
+            	<Label ID="2020" Tags="Right" Name="ctx-rh-parstriangularis"/>
+            	<Label ID="1021" Tags="Left" Name="ctx-lhpericalcarine"/>
+            	<Label ID="2021" Tags="Right" Name="ctx-rh-pericalcarine"/>
+            	<Label ID="1022" Tags="Left" Name="ctx-lh-postcentral"/>
+            	<Label ID="2022" Tags="Right" Name="ctx-rh-postcentral"/>
+            	<Label ID="1023" Tags="Left" Name="ctx-lh-posteriorcingulate"/>
+            	<Label ID="2023" Tags="Right" Name="ctx-rh-posteriorcingulate"/>
+            	<Label ID="1024" Tags="Left" Name="ctx-lh-precentral"/>
+            	<Label ID="2024" Tags="Right" Name="ctx-rh-precentral"/>
+            	<Label ID="1025" Tags="Left" Name="ctx-lh-precuneus"/>
+            	<Label ID="2025" Tags="Right" Name="ctx-rh-precuneus"/>
+            	<Label ID="1026" Tags="Left" Name="ctx-lh-rostralanteriorcingulate"/>
+            	<Label ID="2026" Tags="Right" Name="ctx-rh-rostralanteriorcingulate"/>
+            	<Label ID="1027" Tags="Left" Name="ctx-lh-rostralmiddlefrontal"/>
+            	<Label ID="2027" Tags="Right" Name="ctx-rh-rostralmiddlefrontal"/>
+            	<Label ID="1028" Tags="Left" Name="ctx-lh-superiorfrontal"/>
+            	<Label ID="2028" Tags="Right" Name="ctx-rh-superiorfrontal"/>
+            	<Label ID="1029" Tags="Left" Name="ctx-lh-superiorparietal"/>
+            	<Label ID="2029" Tags="Right" Name="ctx-rh-superiorparietal"/>
+            	<Label ID="1030" Tags="Left" Name="ctx-lh-superiortemporal"/>
+            	<Label ID="2030" Tags="Right" Name="ctx-rh-superiortemporal"/>
+            	<Label ID="1031" Tags="Left" Name="ctx-lh-supramarginal"/>
+            	<Label ID="2031" Tags="Right" Name="ctx-rh-supramarginal"/>
+            	<Label ID="1032" Tags="Left" Name="ctx-lh-frontalpole"/>
+            	<Label ID="2032" Tags="Right" Name="ctx-rh-frontalpole"/>
+            	<Label ID="1033" Tags="Left" Name="ctx-lh-temporalpole"/>
+            	<Label ID="2033" Tags="Right" Name="ctx-rh-temporalpole"/>
+            	<Label ID="1034" Tags="Left" Name="ctx-lh-transversetemporal"/>
+            	<Label ID="2034" Tags="Right" Name="ctx-rh-transversetemporal"/>
+            	<Label ID="1035" Tags="Left" Name="ctx-lh-insula"/>
+            	<Label ID="2035" Tags="Right" Name="ctx-rh-insula"/>
+        	</Structures>
+        	<Tags>
+            	<Tag Name="Whole_brain" Members="Left Right" ExampleCoord="0 0 0"/>
+        	</Tags>
+    	</LabelTable>
+	</MapInfo>
+	<MapInfo Name="freesurfer_subcortical">
+    	<MetaData>
+        	<MD>
+            	<Name>Citation</Name>
+            	<Value>doi:10.1016/S0896-6273(02)00569-X</Value>
+        	</MD>
+    	</MetaData>
+    	<LabelTable UnlabeledID="0">
+        	<Structures>
+            	<Label ID="8" Tags="Left" Name="Left-Cerebellum-Cortex"/>
+            	<Label ID="47" Tags="Right" Name="Right-Cerebellum-Cortex"/>
+            	<Label ID="10" Tags="Left" Name="Left-Thalamus-Proper"/>
+            	<Label ID="49" Tags="Right" Name="Right-Thalamus-Proper"/>
+            	<Label ID="11" Tags="Left" Name="Left-Caudate"/>
+            	<Label ID="50" Tags="Right" Name="Right-Caudate"/>
+            	<Label ID="12" Tags="Left" Name="Left-Putamen"/>
+            	<Label ID="51" Tags="Right" Name="Right-Putamen"/>
+            	<Label ID="13" Tags="Left" Name="Left-Pallidum"/>
+            	<Label ID="52" Tags="Right" Name="Right-Pallidum"/>
+            	<Label ID="17" Tags="Left" Name="Left-Hippocampus"/>
+            	<Label ID="53" Tags="Right" Name="Right-Hippocampus"/>
+            	<Label ID="18" Tags="Left" Name="Left-Amygdala"/>
+            	<Label ID="54" Tags="Right" Name="Right-Amygdala"/>
+            	<Label ID="26" Tags="Left" Name="Left-Accumbens-area"/>
+            	<Label ID="58" Tags="Right" Name="Right-Accumbens-area"/>
+            	<Label ID="28" Tags="Left" Name="Left-VentralDC"/>
+            	<Label ID="60" Tags="Right" Name="Right-VentralDC"/>
+        	</Structures>
+        	<Tags>
+            	<Tag Name="Whole_brain" Members="Left Right" ExampleCoord="0 0 0"/>
+        	</Tags>
+    	</LabelTable>
+	</MapInfo>
+</INCF-Extension>
