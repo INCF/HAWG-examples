@@ -13,9 +13,7 @@
    "coordinate_system" : "MNI_152",  # THIS MUST BE REALLY WELL SPECIFIED IN THE SPECIFICATION
 
    # simple case
-   "resource" : "file://structures.nii"
-   ]
-
+   "resource" : "file://structures.nii",
 
    "structure" : [
       { "id" : "FAL",
