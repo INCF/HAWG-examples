@@ -1,0 +1,41 @@
+# there is a defined dimension order it is : xyzT
+
+{  # required
+   "name" : "AAL2",
+
+   # optional
+   "license" : "MIT",
+   "citation" : "doi:10.1016/j.neuroimage.2015.07.075;doi:10.1006/nimg.2001.0978", # DOI recommended
+   "version" : "2",
+   "contact" : "mailto:aal2.gin.brainatlas@gmail.com",
+   "ontology" : "doi:10.10.10.1/localhost",
+   "comment" : "all the extra text that doesn't belong anywhere else. ie: please cite the first DOI for the first 20 labels and the second for these other labels...  You can download the atlas from http://www.google.com.fr  Please contact aal2.gin.brainatlas@gmail.com for more information",
+   "coordinate_system" : "MNI_152",  # THIS MUST BE REALLY WELL SPECIFIED IN THE SPECIFICATION
+
+   # simple case
+   "resource" : "file://structures.nii"
+   ]
+
+
+   "structure" : [
+      { "id" : "FAL",
+         "index":1
+        	"display_name":"Precentral_L",
+          "name" : "Temporal Lobe",
+          "colour" : "rgba(255,255,255,128)",
+  	   },
+
+	   { "id" : "VER10",
+      "index":2
+        "display_name":"Vermis_10",
+         "name" : "Temporal Lobe",
+         "colour" : "#ff3342",
+  	   }
+
+	   { "id" : "CA1",
+      "index":3
+        "display_name":"hippo_CA1",
+         "name" : "Hippocampus",
+         "colour" : "#ff3333",
+  	   }
+   ]
