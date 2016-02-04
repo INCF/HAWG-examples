@@ -1,9 +1,6 @@
 # there is a defined dimension order it is : xyzT
 
-{  # required
-   "name" : "AAL2",
-
-   # optional
+{  "name" : "AAL2",
    "license" : "MIT",
    "citation" : "doi:10.1016/j.neuroimage.2015.07.075;doi:10.1006/nimg.2001.0978",
    "version" : "2",
@@ -12,7 +9,6 @@
    "comment" : "all the extra text that doesn't belong anywhere else. ie: please cite the first DOI for the first 20 labels and the second for these other labels...  You can download the atlas from http://www.google.com.fr  Please contact aal2.gin.brainatlas@gmail.com for more information",
    "coordinate_system" : "MNI_152",
 
-   # simple case
    "resource" : "file://structures.nii",
 
    "structure" : [
