@@ -1,83 +1,118 @@
-{
-   "name" : "AAL2",
-   "contact" : "aal2.gin.brainatlas@gmail.com",
-   "filename" : "ROI_MNI_V5.nii",
-   "hard_label" : true,
-   "license" : "",
-   "citation" : "doi:10.1016/j.neuroimage.2015.07.075;doi:10.1006/nimg.2001.0978",
-   "version" : "2",
-   "provenance" : {
-  	"title": "Implementation of a new parcellation of the orbitofrontal cortex in the automated anatomical labeling atlas.",
-  	"authors" : "Rolls ET, Joliot M & Tzourio-Mazoyer N.",
-  	"year" : 2015,
-  	"description" : "Manual labeling of the Colin27 dataset.",
-  	"source_url" : "http://www.gin.cnrs.fr/AAL2"
-   },
-   "tags" : {
-  	"temporal_lobe" : {
-     	"name" : "Temporal lobe",
-     	"labels" : [
-        	"T1L",
-        	"T1R",
-        	"T1AL",
-        	"T1AR",
-        	"T2L",
-        	"T2R",
-        	"T2AL",
-        	"T2AR",
-        	"T3L",
-        	"T3R"
-     	]
-  	},
-  	"right" : {
-     	"name" : "Right brain",
-     	"labels" : [
-        	"FAR",
-        	"F1_2R",
-[...]        
-	"CER9R",
-        	"CER10R"
-     	]
-  	},
-  	"left" : {
-     	"labels" : [
-        	"FAL",
-[...]
-	"CER9L",
-        	"CER10L"
-     	],
-     	"name" : "Left brain"
-  	},
-  	"occipital_lobe" : {
-     	"name" : "Occipital lobe",
-     	"labels" : [
-        	"O1L",
-        	"O1R",
-        	"O2L",
-        	"O2R",
-        	"O3L",
-        	"O3R"
-     	]
-  	},
-  	"hippocampus" : {
-     	"name" : "Hippocampus",
-     	"labels" : [
-        	"HIPPOL",
-        	"HIPPOR"
-     	],
-     	"citation" : ""
-  	}
-   },
-   "structures" : {
-  	"FAL" : {
-        	"display_name":"Precentral_L",
-        	"data_key":2001
-  	},
-[...]
-	"VER10" : {
-        	"display_name":"Vermis_10",
-        	"data_key":9170
-  	}
-   }
-}
+# there is a defined dimension order it is : xyzT
 
+{  # required
+   "name" : "AAL2",
+
+   # optional
+   "license" : "MIT",
+   "citation" : "doi:10.1016/j.neuroimage.2015.07.075;doi:10.1006/nimg.2001.0978", # DOI recommended
+   "version" : "2",
+   "contact" : "mailto:aal2.gin.brainatlas@gmail.com",
+   "ontology" : "doi:10.10.10.1/localhost",
+   "comment" : "all the extra text that doesn't belong anywhere else. ie: please cite the first DOI for the first 20 labels and the second for these other labels...  You can download the atlas from http://www.google.com.fr  Please contact aal2.gin.brainatlas@gmail.com for more information",
+   "coordinate_system" : "MNI_152",  # THIS MUST BE REALLY WELL SPECIFIED IN THE SPECIFICATION
+
+   # simple case
+   "resource" : "file://bob.nii"
+
+   # complex case
+   "resource" : [
+      { "id" : "wm",
+         "file" : "file://ROI_MNI_V5.nii",
+      },
+
+      { "id" : "gm",
+            "file" : "file://ROI_MNI_GM_4D.nii,1",
+         }
+
+      { "id" : "background",
+               "file" : "file://ROI_MNI_bg.nii",
+            }
+   ]
+
+
+   "structure" : [
+      { "id" : "FAL",
+        	"display_name":"Precentral_L",
+        	"index":2
+  	   },
+
+      [...]
+
+	   { "id" : "VER10",
+        "display_name":"Vermis_10",
+
+         # optional
+         "index":3,
+         "resource" : "wm"
+  	   }
+   ]
+
+   # readers should create a list of tags that map directly to labels when reading?
+   # such that access by name is a search of tag names only.
+   "tags" : [
+      {  "id" : "temprl_lbe",
+         "members" : [
+            "T1L",
+            "T1R",
+            "T1AL",
+            "T1AR",
+            "T2L",
+            "T2R",
+            "T2AL",
+            "T2AR",
+            "T3L",
+            "T3R"
+         ]
+
+         # optional
+         "name" : "Temporal Lobe",
+         "example_coordinate" : [10,10,12],
+         "colour" : "#ff3342",
+      },
+
+      {  "id" : "rgth_brn",
+         "name" : "Right brain",
+         "members" : [
+            "FAR",
+            "F1_2R",
+            [...]
+            "CER9R",
+            "CER10R"
+         ]
+       },
+
+       { "id" : "left_brn",
+         "name" : "Left brain",
+         "members" : [
+            "FAL",
+            "CER9L",
+            "CER10L"
+         ]
+       },
+
+       { "id" : "occptl_lbe",
+         "name" : "Occipital lobe",
+         "members" : [
+             	"O1L",
+             	"O1R",
+             	"O2L",
+             	"O2R",
+             	"O3L",
+             	"O3R"
+          	]
+       	},
+       	"hippocampus" : {
+          	"name" : "Hippocampus",
+          	"labels" : [
+             	"HIPPOL",
+             	"HIPPOR"
+          	],
+        },
+
+
+   ]
+
+
+
+}
