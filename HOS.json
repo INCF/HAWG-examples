@@ -1,0 +1,131 @@
+[{
+        "@type": "header",
+        "@id":"HOS",
+        "species": "Homo Sapiens"
+        "organ": "brain"
+        "name": "Harvard-Oxford Subcortical Probability 2mm",
+        "licence": "http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Licence",
+        "citation": "doi:10.1016/j.biopsych.2006.06.027;doi:10.1016/j.neuroimage.2006.01.021",
+        "version": "1",
+        "contact": ["mailto:steve@fmrib.ox.ac.uk", "http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases"], #Nice to include more than one thing if it exists 
+        "comment": "<p>Probabilistic atlases covering 48 cortical and 21 subcortical structural areas, derived from structural data and segmentations kindly provided by the Harvard Center for Morphometric Analysis.</p><p>T1-weighted images of 21 healthy male and 16 healthy female subjects (ages 18-50) were individually segmented by the CMA using semi-automated tools developed in-house. The T1-weighted images were affine-registered to MNI152 space using FLIRT (FSL), and the transforms then applied to the individual labels. Finally, these were combined across subjects to form population probability maps for each label.</p><p>We are very grateful to the following for providing the segmentations used to create these atlases: David Kennedy and Christian Haselgrove, Centre for Morphometric Analysis, Harvard; Bruce Fischl, the Martinos Center for Biomedical Imaging, MGH (NIH grants P41-RR14075, R01 RR16594-01A1, R01 NS052585-01); Janis Breeze and Jean Frazier from the Child and Adolescent Neuropsychiatric Research Program, Cambridge Health Alliance (NIH grants K08 MH01573, K01 MH01798); Larry Seidman and Jill Goldstein from the Department of Psychiatry of Harvard Medical School.</p>",
+        "coordinate_system": "ijk", #a standardised naming is needed here(ijk = voxel coordinate)
+        "reference_anatomical_file": "$FSLDIR/data/standard/MNI152_T1_2mm" # reference to template
+    }, 
+    {
+        "@id": "dataRef",
+        "@type": "datasource",
+        "comment": "", #json can’ t handle multi - line 
+        "mimeType": "application/x-nifti",
+        "source": "NULL",
+    }, 
+    {
+        "@id": "LCWM_structure",
+        "@type": "structure",
+        "sourceSelector": {
+            "datasource": "dataRef",
+            "frame_dimension": 4, #should just follow the convention of the data file being pointed at 
+            "frame_index": 0, #should just follow the convention of the data file being pointed at
+        },
+        "annotation": {
+            "name": "Left Cerebral White Matter",
+            "shortName": "LCWM",
+            "laterality": "left"
+        },
+        "renderOptions": {
+            "pointOfInterest": [58, 37, 50]
+        },
+    }, 
+    {
+        "@id": "LCTX_structure",
+        "@type": "structure",
+        "sourceSelector": {
+            "datasource": "dataRef",
+            "frame_dimension": 4, #should just follow the convention of the data file being pointed at 
+            "frame_index": 1, #should just follow the convention of the data file being pointed at
+        },
+        "annotation": {
+            "name": "Left Cerebral Cortex",
+            "shortName": "LCTX",
+            "laterality": "left"
+        },
+        "renderOptions": {
+            "pointOfInterest": [70, 63, 35]
+        },
+    }, 
+    {
+        "@id": "LLV_structure",
+        "@type": "structure",
+        "sourceSelector": {
+            "datasource": "dataRef",
+            "frame_dimension": 4,
+            "frame_index": 2,
+        },
+        "annotation": {
+            "name": "Left Lateral Ventrical",
+            "shortName": "LLV",
+            "laterality": "left"
+        },
+        "renderOptions": {
+            "pointOfInterest": [47, 40, 41]
+        },
+    }, 
+    {
+        "@id": "LThal_structure",
+        "@type": "structure",
+        "sourceSelector": {
+            "datasource": "dataRef",
+            "frame_dimension": 4,
+            "frame_index": 3,
+        },
+        "annotation": {
+            "name": "Left Thalamus",
+            "shortName": "LThal",
+            "laterality": "left",
+            "seeAlso": "Thalamus" ## minimal
+        },
+        "renderOptions": {
+            "pointOfInterest": [51, 51, 39]
+        },
+    },
+    {
+        "@id": "RThal_structure",
+        "@type": "structure",
+        "sourceSelector": {
+            "datasource": "dataRef",
+            "frame_dimension": 4,
+            "frame_index": 14,
+        },
+        "annotation": {
+            "name": "Right Thalamus",
+            "shortName": "RThal",
+            "laterality": "right",
+            "seeAlso": "Thalamus" ##not minimal
+        },
+        "renderOptions": {
+            "pointOfInterest": [38, 51, 39]
+        },
+    }
+    #more structures here 
+    {
+        "@id": "Left_Structures",
+        "type": "group",
+        "annotation": {
+            "name": "Left Structures",
+            "description": "Group to identify left hemisphere structures",
+            "shortName": "Left",
+        },
+        "members": ["LThal_structure", "LLV_structure", "LCTX_structure"],
+    },
+    {
+        "@id": "Thalamus",
+        "type": "group",
+        "annotation": {
+            "name": "Thalamus",
+            "description": "Group to generate bi-lateral representation of Thalamus",
+            "shortName": "Thal",
+            "ontologyReferences": ["http://purl.obolibrary.org/obo/FMA_????"]
+        },
+        "members": ["LThal_structure", "RThal_structure"],
+    }
+]
