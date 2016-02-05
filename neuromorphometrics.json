@@ -1,0 +1,112 @@
+[
+   {
+      "species" : "human",
+      "hawgVersion" : "1.0",
+      "license" : "CC BY-NC",
+      "comment" : "Maximum probability tissue labels derived from the ‘MICCAI 2012 Grand Challenge and Workshop on Multi-Atlas Labeling’ (https://masi.vuse.vanderbilt.edu/workshop2012/index.php/Challenge_Details). These data were released under the Creative Commons Attribution-NonCommercial (CC BY-NC) with no end date. Users should credit the MRI scans as originating from the OASIS project (http://www.oasis-brains.org/) and the labeled data as 'provided by Neuromorphometrics, Inc. (http://Neuromorphometrics.com/) under academic subscription'.  These references should be included in all workshop and final publications",
+      "contact" : "mailto:aal2.gin.brainatlas@gmail.com",
+      "coordinateSystem" : "MNI",
+      "name" : "Neuromorphometrics",
+      "sourceData" : "labels_Neuromorphometrics.nii",
+      "citation" : "doi:10.1016/j.neuroimage.2015.07.075;doi:10.1006/nimg.2001.0978",
+      "version" : "2",
+      "organ" : "brain",
+      "boogahboogah" : "http://braincolor.mindboggle.info/docs/BrainCOLOR_cortical_parcellation_protocol.pdf"
+   },
+   {
+      "@id" : "atlasDataSourceRef1",
+      "@type" : "datasource",
+      "source" : "labels_Neuromorphometrics.nii",
+      "mimeType" : "",
+      "comment" : ""
+   },
+   {
+      "@id" : "_3rdVentricle",
+      "sourceSelector" : {
+         "dataKey" : "4",
+         "dataSource" : "atlasDataSourceRef1"
+      },
+      "annotation" : {
+         "shortName" : "3rdVen",
+         "description" : "Something about the structure",
+         "name" : "Third Ventricle"
+      },
+      "@type" : "structure"
+   },
+   {
+      "@id" : "_4thVentricle",
+      "sourceSelector" : {
+         "dataSource" : "atlasDataSourceRef1",
+         "dataKey" : "11"
+      },
+      "annotation" : {
+         "description" : "Something about the structure",
+         "name" : "Fourth Ventricle",
+         "shortName" : "4thVen"
+      },
+      "@type" : "structure"
+   },
+   {
+      "@type" : "structure",
+      "annotation" : {
+         "shortName" : "BStem",
+         "name" : "Brain Stem"
+      },
+      "sourceSelector" : {
+         "dataKey" : "35",
+         "dataSource" : "atlasDataSourceRef1"
+      },
+      "@id" : "BStem"
+   },
+   {
+      "@type" : "structure",
+      "annotation" : {
+         "description" : "Something about the structure",
+         "name" : "Left Hippocampus",
+         "shortName" : "LHipp"
+      },
+      "sourceSelector" : {
+         "dataSource" : "atlasDataSourceRef1",
+         "dataKey" : "48"
+      },
+      "@id" : "LHipp"
+   },
+   {
+      "sourceSelector" : {
+         "dataSource" : "atlasDataSourceRef1",
+         "dataKey" : "47"
+      },
+      "@id" : "RHipp",
+      "@type" : "structure",
+      "annotation" : {
+         "shortName" : "RHipp",
+         "name" : "Right Hippocampus",
+         "description" : "Something about the structure"
+      }
+   },
+   {
+      "annotation" : {
+         "name" : "Ventricles",
+         "description" : "We intentionally group all ventricles together just to show how it would be done. This level of structure does not exist in the original atlas",
+         "shortName" : "Ventricles"
+      },
+      "members" : [
+         "_4thVentricle",
+         "_3rdVentricle"
+      ],
+      "@type" : "group",
+      "@id" : "Ventricles"
+   },
+   {
+      "@id" : "Left",
+      "@type" : "group",
+      "members" : [
+         "LHipp"
+      ],
+      "annotation" : {
+         "shortName" : "Left",
+         "description" : "This group contains all groups on the left of the brain.",
+         "name" : "Left brain structures."
+      }
+   }
+]
