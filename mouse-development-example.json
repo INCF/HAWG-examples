@@ -56,7 +56,7 @@
 {
 "@id": "hippocampus_l_p3",
 "@type": "structure",
-"sourceSelector" : {"data_key" : "12",
+"sourceSelector" : {"dataKey" : "12",
                   "datasource" : "p03"},
 "annotation" : {
         "name": "left hippocampus p3",
@@ -72,7 +72,7 @@
 {
 "@id": "hippocampus_l_p5",
 "@type": "structure",
-"sourceSelector" : {"data_key" : "12",
+"sourceSelector" : {"dataKey" : "12",
                   "datasource" : "p05"},
 "annotation" : {
         "name": "left hippocampus p5",
@@ -88,7 +88,7 @@
 {
 "@id": "hippocampus_l_p7",
 "@type": "structure",
-"sourceSelector" : {"data_key" : "12",
+"sourceSelector" : {"dataKey" : "12",
                   "datasource" : "p07"},
 "annotation" : {
         "name": "left hippocampus p7",
