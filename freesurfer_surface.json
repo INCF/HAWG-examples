@@ -1,14 +1,16 @@
 [
     {
         "comment": "One file that rules them all", 
-        "license": "FreeSurfer license", 
-        "name": "FreeSurfer", 
-        "organ": "brain", 
         "reference_anatomical_file": "???", 
         "citation": "http://dx.doi.org/10.1016/j.neuroimage.2012.01.021", 
         "@id": "fce8de8e7a1145ffbf7c6ef0c68bec2b", 
-        "@type": "header", 
-        "species": "homo sapiens"
+        "organ": "brain", 
+        "name": "FreeSurfer", 
+        "license": "FreeSurfer license", 
+        "species": "homo sapiens", 
+        "version": "0.0.1", 
+        "homepage": "???", 
+        "@type": "hawg_header"
     }, 
     {
         "comment": "", 
