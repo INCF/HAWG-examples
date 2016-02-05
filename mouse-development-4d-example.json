@@ -15,7 +15,7 @@
 {
 "@id": "p1-7",
 "@type": "datasource",
-"mimeType": "minc/better-than-SPM",
+"mimeType": "application/x-minc",
 "source": "file:///P1-7.mnc",
 },
 
