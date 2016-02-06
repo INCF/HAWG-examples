@@ -15,25 +15,25 @@
 {
 "@id": "p01",
 "@type": "datasource",
-"mimeType": "minc/better-than-SPM",
+"mimeType": "application/x-minc",
 "source": "file:///P01.mnc",
 },
 {
 "@id": "p03",
 "@type": "datasource",
-"mimeType": "minc/better-than-SPM",
+"mimeType": "application/x-minc",
 "source": "file:///P03.mnc",
 },
 {
 "@id": "p05",
 "@type": "datasource",
-"mimeType": "minc/better-than-SPM",
+"mimeType": "application/x-minc-better-than-SPM",
 "source": "file:///P05.mnc",
 },
 {
 "@id": "p07",
 "@type": "datasource",
-"mimeType": "minc/still-better-than-SPM",
+"mimeType": "application/x-minc-still-better-than-SPM",
 "source": "file:///P07.mnc",
 },
 
@@ -56,7 +56,7 @@
 {
 "@id": "hippocampus_l_p3",
 "@type": "structure",
-"sourceSelector" : {"data_key" : "12",
+"sourceSelector" : {"dataKey" : "12",
                   "datasource" : "p03"},
 "annotation" : {
         "name": "left hippocampus p3",
@@ -72,7 +72,7 @@
 {
 "@id": "hippocampus_l_p5",
 "@type": "structure",
-"sourceSelector" : {"data_key" : "12",
+"sourceSelector" : {"dataKey" : "12",
                   "datasource" : "p05"},
 "annotation" : {
         "name": "left hippocampus p5",
@@ -88,7 +88,7 @@
 {
 "@id": "hippocampus_l_p7",
 "@type": "structure",
-"sourceSelector" : {"data_key" : "12",
+"sourceSelector" : {"dataKey" : "12",
                   "datasource" : "p07"},
 "annotation" : {
         "name": "left hippocampus p7",

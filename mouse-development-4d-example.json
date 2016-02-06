@@ -1,7 +1,7 @@
 [{
 "@type": "header",
-   "species": "mouse"
-   "organ": "brain"
+   "species": "mouse",
+   "organ": "brain",
    "name" : "mouseDevelopmentalAtlas",
 
    "license" : "CC",
@@ -15,15 +15,16 @@
 {
 "@id": "p1-7",
 "@type": "datasource",
-"mimeType": "minc/better-than-SPM",
+"mimeType": "application/x-minc",
 "source": "file:///P1-7.mnc",
 },
 
 {
 "@id": "hippocampus_l_p1",
 "@type": "structure",
-"sourceSelector" : {"data_key" : "12",
-                  "frame" : "4,0",
+"sourceSelector" : {"dataKey" : "12",
+                  "frameDimension" : "3",
+                  "frameIndex" : "0",
                   "datasource" : "p1-7"},
 "annotation" : {
         "name": "left hippocampus p1",
@@ -39,8 +40,9 @@
 {
 "@id": "hippocampus_l_p3",
 "@type": "structure",
-"sourceSelector" : {"data_key" : "12",
-                  "frame" : "4,1",
+"sourceSelector" : {"dataKey" : "12",
+                  "frameDimension" : "3",
+                  "frameIndex" : "1",
                   "datasource" : "p1-7"},
 "annotation" : {
         "name": "left hippocampus p3",
@@ -56,8 +58,9 @@
 {
 "@id": "hippocampus_l_p5",
 "@type": "structure",
-"sourceSelector" : {"data_key" : "12",
-                  "frame" : "4,2",
+"sourceSelector" : {"dataKey" : "12",
+                  "frameDimension" : "3",
+                  "frameIndex", "2",
                   "datasource" : "p1-7"},
 "annotation" : {
         "name": "left hippocampus p5",
@@ -73,8 +76,9 @@
 {
 "@id": "hippocampus_l_p7",
 "@type": "structure",
-"sourceSelector" : {"data_key" : "12",
-                  "frame" : "4,3",
+"sourceSelector" : {"dataKey" : "12",
+                  "frameDimension" : "3"
+                  "frameIndex", "3",
                   "datasource" : "p1-7"},
 "annotation" : {
         "name": "left hippocampus p7",

@@ -1,0 +1,1973 @@
+[
+    {
+        "comment": "One file that rules them all", 
+        "reference_anatomical_file": "???", 
+        "citation": "http://dx.doi.org/10.1016/j.neuroimage.2012.01.021", 
+        "@id": "fce8de8e7a1145ffbf7c6ef0c68bec2b", 
+        "organ": "brain", 
+        "name": "FreeSurfer", 
+        "license": "FreeSurfer license", 
+        "species": "homo sapiens", 
+        "version": "0.0.1", 
+        "homepage": "???", 
+        "@type": "hawg_header"
+    }, 
+    {
+        "comment": "", 
+        "mimeType": "bin/freesurfer+annot", 
+        "source_md5": "bf0b488994657435cdddac5f107d21e8", 
+        "source": "/Applications/freesurfer/subjects/fsaverage/label/lh.aparc.annot", 
+        "aux_source": "/Applications/freesurfer/subjects/fsaverage/surf/lh.pial", 
+        "aux_source_md5": "b2cbe3cec9672d6c23fe50deda92c835", 
+        "@id": "lhaparcannot", 
+        "@type": "datasource"
+    }, 
+    {
+        "comment": "", 
+        "mimeType": "bin/freesurfer+annot", 
+        "source_md5": "8f504caddedfde367a40501da6222809", 
+        "source": "/Applications/freesurfer/subjects/fsaverage/label/rh.aparc.annot", 
+        "aux_source": "/Applications/freesurfer/subjects/fsaverage/surf/rh.pial", 
+        "aux_source_md5": "db2c36f5647c586466aee533b523f0f8", 
+        "@id": "rhaparcannot", 
+        "@type": "datasource"
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "1639705", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#190519"
+        }, 
+        "@id": "Left_unknown", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_unknown", 
+            "ontologyReferences": {}, 
+            "name": "Left_unknown", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "2647065", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#196428"
+        }, 
+        "@id": "Left_bankssts", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_bankssts", 
+            "ontologyReferences": {}, 
+            "name": "Left_bankssts", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "10511485", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#7d64a0"
+        }, 
+        "@id": "Left_caudalanteriorcingulate", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_caudalanteriorcingulate", 
+            "ontologyReferences": {}, 
+            "name": "Left_caudalanteriorcingulate", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "6500", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#641900"
+        }, 
+        "@id": "Left_caudalmiddlefrontal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_caudalmiddlefrontal", 
+            "ontologyReferences": {}, 
+            "name": "Left_caudalmiddlefrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3294840", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#784632"
+        }, 
+        "@id": "Left_corpuscallosum", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_corpuscallosum", 
+            "ontologyReferences": {}, 
+            "name": "Left_corpuscallosum", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "6558940", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dc1464"
+        }, 
+        "@id": "Left_cuneus", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_cuneus", 
+            "ontologyReferences": {}, 
+            "name": "Left_cuneus", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "660700", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dc140a"
+        }, 
+        "@id": "Left_entorhinal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_entorhinal", 
+            "ontologyReferences": {}, 
+            "name": "Left_entorhinal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9231540", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#b4dc8c"
+        }, 
+        "@id": "Left_fusiform", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_fusiform", 
+            "ontologyReferences": {}, 
+            "name": "Left_fusiform", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "14433500", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dc3cdc"
+        }, 
+        "@id": "Left_inferiorparietal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_inferiorparietal", 
+            "ontologyReferences": {}, 
+            "name": "Left_inferiorparietal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "7874740", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#b42878"
+        }, 
+        "@id": "Left_inferiortemporal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_inferiortemporal", 
+            "ontologyReferences": {}, 
+            "name": "Left_inferiortemporal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9180300", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#8c148c"
+        }, 
+        "@id": "Left_isthmuscingulate", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_isthmuscingulate", 
+            "ontologyReferences": {}, 
+            "name": "Left_isthmuscingulate", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9182740", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#141e8c"
+        }, 
+        "@id": "Left_lateraloccipital", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_lateraloccipital", 
+            "ontologyReferences": {}, 
+            "name": "Left_lateraloccipital", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3296035", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#234b32"
+        }, 
+        "@id": "Left_lateralorbitofrontal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_lateralorbitofrontal", 
+            "ontologyReferences": {}, 
+            "name": "Left_lateralorbitofrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9211105", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#e18c8c"
+        }, 
+        "@id": "Left_lingual", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_lingual", 
+            "ontologyReferences": {}, 
+            "name": "Left_lingual", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "4924360", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#c8234b"
+        }, 
+        "@id": "Left_medialorbitofrontal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_medialorbitofrontal", 
+            "ontologyReferences": {}, 
+            "name": "Left_medialorbitofrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3302560", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#a06432"
+        }, 
+        "@id": "Left_middletemporal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_middletemporal", 
+            "ontologyReferences": {}, 
+            "name": "Left_middletemporal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3988500", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#14dc3c"
+        }, 
+        "@id": "Left_parahippocampal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_parahippocampal", 
+            "ontologyReferences": {}, 
+            "name": "Left_parahippocampal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3988540", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#3cdc3c"
+        }, 
+        "@id": "Left_paracentral", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_paracentral", 
+            "ontologyReferences": {}, 
+            "name": "Left_paracentral", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9221340", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dcb48c"
+        }, 
+        "@id": "Left_parsopercularis", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_parsopercularis", 
+            "ontologyReferences": {}, 
+            "name": "Left_parsopercularis", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3302420", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#146432"
+        }, 
+        "@id": "Left_parsorbitalis", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_parsorbitalis", 
+            "ontologyReferences": {}, 
+            "name": "Left_parsorbitalis", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "1326300", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dc3c14"
+        }, 
+        "@id": "Left_parstriangularis", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_parstriangularis", 
+            "ontologyReferences": {}, 
+            "name": "Left_parstriangularis", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3957880", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#78643c"
+        }, 
+        "@id": "Left_pericalcarine", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_pericalcarine", 
+            "ontologyReferences": {}, 
+            "name": "Left_pericalcarine", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "1316060", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dc1414"
+        }, 
+        "@id": "Left_postcentral", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_postcentral", 
+            "ontologyReferences": {}, 
+            "name": "Left_postcentral", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "14464220", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dcb4dc"
+        }, 
+        "@id": "Left_posteriorcingulate", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_posteriorcingulate", 
+            "ontologyReferences": {}, 
+            "name": "Left_posteriorcingulate", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "14423100", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#3c14dc"
+        }, 
+        "@id": "Left_precentral", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_precentral", 
+            "ontologyReferences": {}, 
+            "name": "Left_precentral", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "11832480", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#a08cb4"
+        }, 
+        "@id": "Left_precuneus", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_precuneus", 
+            "ontologyReferences": {}, 
+            "name": "Left_precuneus", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9180240", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#50148c"
+        }, 
+        "@id": "Left_rostralanteriorcingulate", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_rostralanteriorcingulate", 
+            "ontologyReferences": {}, 
+            "name": "Left_rostralanteriorcingulate", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "8204875", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#4b327d"
+        }, 
+        "@id": "Left_rostralmiddlefrontal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_rostralmiddlefrontal", 
+            "ontologyReferences": {}, 
+            "name": "Left_rostralmiddlefrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "10542100", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#14dca0"
+        }, 
+        "@id": "Left_superiorfrontal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_superiorfrontal", 
+            "ontologyReferences": {}, 
+            "name": "Left_superiorfrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9221140", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#14b48c"
+        }, 
+        "@id": "Left_superiorparietal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_superiorparietal", 
+            "ontologyReferences": {}, 
+            "name": "Left_superiorparietal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "14474380", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#8cdcdc"
+        }, 
+        "@id": "Left_superiortemporal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_superiortemporal", 
+            "ontologyReferences": {}, 
+            "name": "Left_superiortemporal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "1351760", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#50a014"
+        }, 
+        "@id": "Left_supramarginal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_supramarginal", 
+            "ontologyReferences": {}, 
+            "name": "Left_supramarginal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "6553700", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#640064"
+        }, 
+        "@id": "Left_frontalpole", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_frontalpole", 
+            "ontologyReferences": {}, 
+            "name": "Left_frontalpole", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "11146310", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#4614aa"
+        }, 
+        "@id": "Left_temporalpole", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_temporalpole", 
+            "ontologyReferences": {}, 
+            "name": "Left_temporalpole", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "13145750", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#9696c8"
+        }, 
+        "@id": "Left_transversetemporal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_transversetemporal", 
+            "ontologyReferences": {}, 
+            "name": "Left_transversetemporal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "2146559", 
+            "datasource": "lhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#ffc020"
+        }, 
+        "@id": "Left_insula", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Left_insula", 
+            "ontologyReferences": {}, 
+            "name": "Left_insula", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#ff0000"
+        }, 
+        "@id": "Left", 
+        "@type": "group", 
+        "members": [
+            "Left_unknown", 
+            "Left_bankssts", 
+            "Left_caudalanteriorcingulate", 
+            "Left_caudalmiddlefrontal", 
+            "Left_corpuscallosum", 
+            "Left_cuneus", 
+            "Left_entorhinal", 
+            "Left_fusiform", 
+            "Left_inferiorparietal", 
+            "Left_inferiortemporal", 
+            "Left_isthmuscingulate", 
+            "Left_lateraloccipital", 
+            "Left_lateralorbitofrontal", 
+            "Left_lingual", 
+            "Left_medialorbitofrontal", 
+            "Left_middletemporal", 
+            "Left_parahippocampal", 
+            "Left_paracentral", 
+            "Left_parsopercularis", 
+            "Left_parsorbitalis", 
+            "Left_parstriangularis", 
+            "Left_pericalcarine", 
+            "Left_postcentral", 
+            "Left_posteriorcingulate", 
+            "Left_precentral", 
+            "Left_precuneus", 
+            "Left_rostralanteriorcingulate", 
+            "Left_rostralmiddlefrontal", 
+            "Left_superiorfrontal", 
+            "Left_superiorparietal", 
+            "Left_superiortemporal", 
+            "Left_supramarginal", 
+            "Left_frontalpole", 
+            "Left_temporalpole", 
+            "Left_transversetemporal", 
+            "Left_insula"
+        ], 
+        "annotation": {
+            "shortName": "Left", 
+            "ontologyReferences": {}, 
+            "name": "Left", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "1639705", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#190519"
+        }, 
+        "@id": "Right_unknown", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_unknown", 
+            "ontologyReferences": {}, 
+            "name": "Right_unknown", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "2647065", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#196428"
+        }, 
+        "@id": "Right_bankssts", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_bankssts", 
+            "ontologyReferences": {}, 
+            "name": "Right_bankssts", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "10511485", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#7d64a0"
+        }, 
+        "@id": "Right_caudalanteriorcingulate", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_caudalanteriorcingulate", 
+            "ontologyReferences": {}, 
+            "name": "Right_caudalanteriorcingulate", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "6500", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#641900"
+        }, 
+        "@id": "Right_caudalmiddlefrontal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_caudalmiddlefrontal", 
+            "ontologyReferences": {}, 
+            "name": "Right_caudalmiddlefrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3294840", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#784632"
+        }, 
+        "@id": "Right_corpuscallosum", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_corpuscallosum", 
+            "ontologyReferences": {}, 
+            "name": "Right_corpuscallosum", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "6558940", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dc1464"
+        }, 
+        "@id": "Right_cuneus", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_cuneus", 
+            "ontologyReferences": {}, 
+            "name": "Right_cuneus", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "660700", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dc140a"
+        }, 
+        "@id": "Right_entorhinal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_entorhinal", 
+            "ontologyReferences": {}, 
+            "name": "Right_entorhinal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9231540", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#b4dc8c"
+        }, 
+        "@id": "Right_fusiform", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_fusiform", 
+            "ontologyReferences": {}, 
+            "name": "Right_fusiform", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "14433500", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dc3cdc"
+        }, 
+        "@id": "Right_inferiorparietal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_inferiorparietal", 
+            "ontologyReferences": {}, 
+            "name": "Right_inferiorparietal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "7874740", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#b42878"
+        }, 
+        "@id": "Right_inferiortemporal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_inferiortemporal", 
+            "ontologyReferences": {}, 
+            "name": "Right_inferiortemporal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9180300", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#8c148c"
+        }, 
+        "@id": "Right_isthmuscingulate", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_isthmuscingulate", 
+            "ontologyReferences": {}, 
+            "name": "Right_isthmuscingulate", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9182740", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#141e8c"
+        }, 
+        "@id": "Right_lateraloccipital", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_lateraloccipital", 
+            "ontologyReferences": {}, 
+            "name": "Right_lateraloccipital", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3296035", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#234b32"
+        }, 
+        "@id": "Right_lateralorbitofrontal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_lateralorbitofrontal", 
+            "ontologyReferences": {}, 
+            "name": "Right_lateralorbitofrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9211105", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#e18c8c"
+        }, 
+        "@id": "Right_lingual", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_lingual", 
+            "ontologyReferences": {}, 
+            "name": "Right_lingual", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "4924360", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#c8234b"
+        }, 
+        "@id": "Right_medialorbitofrontal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_medialorbitofrontal", 
+            "ontologyReferences": {}, 
+            "name": "Right_medialorbitofrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3302560", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#a06432"
+        }, 
+        "@id": "Right_middletemporal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_middletemporal", 
+            "ontologyReferences": {}, 
+            "name": "Right_middletemporal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3988500", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#14dc3c"
+        }, 
+        "@id": "Right_parahippocampal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_parahippocampal", 
+            "ontologyReferences": {}, 
+            "name": "Right_parahippocampal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3988540", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#3cdc3c"
+        }, 
+        "@id": "Right_paracentral", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_paracentral", 
+            "ontologyReferences": {}, 
+            "name": "Right_paracentral", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9221340", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dcb48c"
+        }, 
+        "@id": "Right_parsopercularis", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_parsopercularis", 
+            "ontologyReferences": {}, 
+            "name": "Right_parsopercularis", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3302420", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#146432"
+        }, 
+        "@id": "Right_parsorbitalis", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_parsorbitalis", 
+            "ontologyReferences": {}, 
+            "name": "Right_parsorbitalis", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "1326300", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dc3c14"
+        }, 
+        "@id": "Right_parstriangularis", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_parstriangularis", 
+            "ontologyReferences": {}, 
+            "name": "Right_parstriangularis", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "3957880", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#78643c"
+        }, 
+        "@id": "Right_pericalcarine", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_pericalcarine", 
+            "ontologyReferences": {}, 
+            "name": "Right_pericalcarine", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "1316060", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dc1414"
+        }, 
+        "@id": "Right_postcentral", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_postcentral", 
+            "ontologyReferences": {}, 
+            "name": "Right_postcentral", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "14464220", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#dcb4dc"
+        }, 
+        "@id": "Right_posteriorcingulate", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_posteriorcingulate", 
+            "ontologyReferences": {}, 
+            "name": "Right_posteriorcingulate", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "14423100", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#3c14dc"
+        }, 
+        "@id": "Right_precentral", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_precentral", 
+            "ontologyReferences": {}, 
+            "name": "Right_precentral", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "11832480", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#a08cb4"
+        }, 
+        "@id": "Right_precuneus", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_precuneus", 
+            "ontologyReferences": {}, 
+            "name": "Right_precuneus", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9180240", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#50148c"
+        }, 
+        "@id": "Right_rostralanteriorcingulate", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_rostralanteriorcingulate", 
+            "ontologyReferences": {}, 
+            "name": "Right_rostralanteriorcingulate", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "8204875", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#4b327d"
+        }, 
+        "@id": "Right_rostralmiddlefrontal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_rostralmiddlefrontal", 
+            "ontologyReferences": {}, 
+            "name": "Right_rostralmiddlefrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "10542100", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#14dca0"
+        }, 
+        "@id": "Right_superiorfrontal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_superiorfrontal", 
+            "ontologyReferences": {}, 
+            "name": "Right_superiorfrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "9221140", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#14b48c"
+        }, 
+        "@id": "Right_superiorparietal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_superiorparietal", 
+            "ontologyReferences": {}, 
+            "name": "Right_superiorparietal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "14474380", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#8cdcdc"
+        }, 
+        "@id": "Right_superiortemporal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_superiortemporal", 
+            "ontologyReferences": {}, 
+            "name": "Right_superiortemporal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "1351760", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#50a014"
+        }, 
+        "@id": "Right_supramarginal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_supramarginal", 
+            "ontologyReferences": {}, 
+            "name": "Right_supramarginal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "6553700", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#640064"
+        }, 
+        "@id": "Right_frontalpole", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_frontalpole", 
+            "ontologyReferences": {}, 
+            "name": "Right_frontalpole", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "11146310", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#4614aa"
+        }, 
+        "@id": "Right_temporalpole", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_temporalpole", 
+            "ontologyReferences": {}, 
+            "name": "Right_temporalpole", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "13145750", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#9696c8"
+        }, 
+        "@id": "Right_transversetemporal", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_transversetemporal", 
+            "ontologyReferences": {}, 
+            "name": "Right_transversetemporal", 
+            "description": ""
+        }
+    }, 
+    {
+        "sourceSelector": {
+            "data_key": "2146559", 
+            "datasource": "rhaparcannot"
+        }, 
+        "renderOptions": {
+            "color": "#ffc020"
+        }, 
+        "@id": "Right_insula", 
+        "@type": "structure", 
+        "annotation": {
+            "shortName": "Right_insula", 
+            "ontologyReferences": {}, 
+            "name": "Right_insula", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#0000ff"
+        }, 
+        "@id": "Right", 
+        "@type": "group", 
+        "members": [
+            "Right_unknown", 
+            "Right_bankssts", 
+            "Right_caudalanteriorcingulate", 
+            "Right_caudalmiddlefrontal", 
+            "Right_corpuscallosum", 
+            "Right_cuneus", 
+            "Right_entorhinal", 
+            "Right_fusiform", 
+            "Right_inferiorparietal", 
+            "Right_inferiortemporal", 
+            "Right_isthmuscingulate", 
+            "Right_lateraloccipital", 
+            "Right_lateralorbitofrontal", 
+            "Right_lingual", 
+            "Right_medialorbitofrontal", 
+            "Right_middletemporal", 
+            "Right_parahippocampal", 
+            "Right_paracentral", 
+            "Right_parsopercularis", 
+            "Right_parsorbitalis", 
+            "Right_parstriangularis", 
+            "Right_pericalcarine", 
+            "Right_postcentral", 
+            "Right_posteriorcingulate", 
+            "Right_precentral", 
+            "Right_precuneus", 
+            "Right_rostralanteriorcingulate", 
+            "Right_rostralmiddlefrontal", 
+            "Right_superiorfrontal", 
+            "Right_superiorparietal", 
+            "Right_superiortemporal", 
+            "Right_supramarginal", 
+            "Right_frontalpole", 
+            "Right_temporalpole", 
+            "Right_transversetemporal", 
+            "Right_insula"
+        ], 
+        "annotation": {
+            "shortName": "Right", 
+            "ontologyReferences": {}, 
+            "name": "Right", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#190519"
+        }, 
+        "@id": "unknown", 
+        "@type": "group", 
+        "members": [
+            "Left_unknown", 
+            "Right_unknown"
+        ], 
+        "annotation": {
+            "shortName": "unknown", 
+            "ontologyReferences": {}, 
+            "name": "unknown", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#196428"
+        }, 
+        "@id": "bankssts", 
+        "@type": "group", 
+        "members": [
+            "Left_bankssts", 
+            "Right_bankssts"
+        ], 
+        "annotation": {
+            "shortName": "bankssts", 
+            "ontologyReferences": {}, 
+            "name": "bankssts", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#7d64a0"
+        }, 
+        "@id": "caudalanteriorcingulate", 
+        "@type": "group", 
+        "members": [
+            "Left_caudalanteriorcingulate", 
+            "Right_caudalanteriorcingulate"
+        ], 
+        "annotation": {
+            "shortName": "caudalanteriorcingulate", 
+            "ontologyReferences": {}, 
+            "name": "caudalanteriorcingulate", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#641900"
+        }, 
+        "@id": "caudalmiddlefrontal", 
+        "@type": "group", 
+        "members": [
+            "Left_caudalmiddlefrontal", 
+            "Right_caudalmiddlefrontal"
+        ], 
+        "annotation": {
+            "shortName": "caudalmiddlefrontal", 
+            "ontologyReferences": {}, 
+            "name": "caudalmiddlefrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#784632"
+        }, 
+        "@id": "corpuscallosum", 
+        "@type": "group", 
+        "members": [
+            "Left_corpuscallosum", 
+            "Right_corpuscallosum"
+        ], 
+        "annotation": {
+            "shortName": "corpuscallosum", 
+            "ontologyReferences": {}, 
+            "name": "corpuscallosum", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#dc1464"
+        }, 
+        "@id": "cuneus", 
+        "@type": "group", 
+        "members": [
+            "Left_cuneus", 
+            "Right_cuneus"
+        ], 
+        "annotation": {
+            "shortName": "cuneus", 
+            "ontologyReferences": {}, 
+            "name": "cuneus", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#dc140a"
+        }, 
+        "@id": "entorhinal", 
+        "@type": "group", 
+        "members": [
+            "Left_entorhinal", 
+            "Right_entorhinal"
+        ], 
+        "annotation": {
+            "shortName": "entorhinal", 
+            "ontologyReferences": {}, 
+            "name": "entorhinal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#b4dc8c"
+        }, 
+        "@id": "fusiform", 
+        "@type": "group", 
+        "members": [
+            "Left_fusiform", 
+            "Right_fusiform"
+        ], 
+        "annotation": {
+            "shortName": "fusiform", 
+            "ontologyReferences": {}, 
+            "name": "fusiform", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#dc3cdc"
+        }, 
+        "@id": "inferiorparietal", 
+        "@type": "group", 
+        "members": [
+            "Left_inferiorparietal", 
+            "Right_inferiorparietal"
+        ], 
+        "annotation": {
+            "shortName": "inferiorparietal", 
+            "ontologyReferences": {}, 
+            "name": "inferiorparietal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#b42878"
+        }, 
+        "@id": "inferiortemporal", 
+        "@type": "group", 
+        "members": [
+            "Left_inferiortemporal", 
+            "Right_inferiortemporal"
+        ], 
+        "annotation": {
+            "shortName": "inferiortemporal", 
+            "ontologyReferences": {}, 
+            "name": "inferiortemporal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#8c148c"
+        }, 
+        "@id": "isthmuscingulate", 
+        "@type": "group", 
+        "members": [
+            "Left_isthmuscingulate", 
+            "Right_isthmuscingulate"
+        ], 
+        "annotation": {
+            "shortName": "isthmuscingulate", 
+            "ontologyReferences": {}, 
+            "name": "isthmuscingulate", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#141e8c"
+        }, 
+        "@id": "lateraloccipital", 
+        "@type": "group", 
+        "members": [
+            "Left_lateraloccipital", 
+            "Right_lateraloccipital"
+        ], 
+        "annotation": {
+            "shortName": "lateraloccipital", 
+            "ontologyReferences": {}, 
+            "name": "lateraloccipital", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#234b32"
+        }, 
+        "@id": "lateralorbitofrontal", 
+        "@type": "group", 
+        "members": [
+            "Left_lateralorbitofrontal", 
+            "Right_lateralorbitofrontal"
+        ], 
+        "annotation": {
+            "shortName": "lateralorbitofrontal", 
+            "ontologyReferences": {}, 
+            "name": "lateralorbitofrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#e18c8c"
+        }, 
+        "@id": "lingual", 
+        "@type": "group", 
+        "members": [
+            "Left_lingual", 
+            "Right_lingual"
+        ], 
+        "annotation": {
+            "shortName": "lingual", 
+            "ontologyReferences": {}, 
+            "name": "lingual", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#c8234b"
+        }, 
+        "@id": "medialorbitofrontal", 
+        "@type": "group", 
+        "members": [
+            "Left_medialorbitofrontal", 
+            "Right_medialorbitofrontal"
+        ], 
+        "annotation": {
+            "shortName": "medialorbitofrontal", 
+            "ontologyReferences": {}, 
+            "name": "medialorbitofrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#a06432"
+        }, 
+        "@id": "middletemporal", 
+        "@type": "group", 
+        "members": [
+            "Left_middletemporal", 
+            "Right_middletemporal"
+        ], 
+        "annotation": {
+            "shortName": "middletemporal", 
+            "ontologyReferences": {}, 
+            "name": "middletemporal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#14dc3c"
+        }, 
+        "@id": "parahippocampal", 
+        "@type": "group", 
+        "members": [
+            "Left_parahippocampal", 
+            "Right_parahippocampal"
+        ], 
+        "annotation": {
+            "shortName": "parahippocampal", 
+            "ontologyReferences": {}, 
+            "name": "parahippocampal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#3cdc3c"
+        }, 
+        "@id": "paracentral", 
+        "@type": "group", 
+        "members": [
+            "Left_paracentral", 
+            "Right_paracentral"
+        ], 
+        "annotation": {
+            "shortName": "paracentral", 
+            "ontologyReferences": {}, 
+            "name": "paracentral", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#dcb48c"
+        }, 
+        "@id": "parsopercularis", 
+        "@type": "group", 
+        "members": [
+            "Left_parsopercularis", 
+            "Right_parsopercularis"
+        ], 
+        "annotation": {
+            "shortName": "parsopercularis", 
+            "ontologyReferences": {}, 
+            "name": "parsopercularis", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#146432"
+        }, 
+        "@id": "parsorbitalis", 
+        "@type": "group", 
+        "members": [
+            "Left_parsorbitalis", 
+            "Right_parsorbitalis"
+        ], 
+        "annotation": {
+            "shortName": "parsorbitalis", 
+            "ontologyReferences": {}, 
+            "name": "parsorbitalis", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#dc3c14"
+        }, 
+        "@id": "parstriangularis", 
+        "@type": "group", 
+        "members": [
+            "Left_parstriangularis", 
+            "Right_parstriangularis"
+        ], 
+        "annotation": {
+            "shortName": "parstriangularis", 
+            "ontologyReferences": {}, 
+            "name": "parstriangularis", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#78643c"
+        }, 
+        "@id": "pericalcarine", 
+        "@type": "group", 
+        "members": [
+            "Left_pericalcarine", 
+            "Right_pericalcarine"
+        ], 
+        "annotation": {
+            "shortName": "pericalcarine", 
+            "ontologyReferences": {}, 
+            "name": "pericalcarine", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#dc1414"
+        }, 
+        "@id": "postcentral", 
+        "@type": "group", 
+        "members": [
+            "Left_postcentral", 
+            "Right_postcentral"
+        ], 
+        "annotation": {
+            "shortName": "postcentral", 
+            "ontologyReferences": {}, 
+            "name": "postcentral", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#dcb4dc"
+        }, 
+        "@id": "posteriorcingulate", 
+        "@type": "group", 
+        "members": [
+            "Left_posteriorcingulate", 
+            "Right_posteriorcingulate"
+        ], 
+        "annotation": {
+            "shortName": "posteriorcingulate", 
+            "ontologyReferences": {}, 
+            "name": "posteriorcingulate", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#3c14dc"
+        }, 
+        "@id": "precentral", 
+        "@type": "group", 
+        "members": [
+            "Left_precentral", 
+            "Right_precentral"
+        ], 
+        "annotation": {
+            "shortName": "precentral", 
+            "ontologyReferences": {}, 
+            "name": "precentral", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#a08cb4"
+        }, 
+        "@id": "precuneus", 
+        "@type": "group", 
+        "members": [
+            "Left_precuneus", 
+            "Right_precuneus"
+        ], 
+        "annotation": {
+            "shortName": "precuneus", 
+            "ontologyReferences": {}, 
+            "name": "precuneus", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#50148c"
+        }, 
+        "@id": "rostralanteriorcingulate", 
+        "@type": "group", 
+        "members": [
+            "Left_rostralanteriorcingulate", 
+            "Right_rostralanteriorcingulate"
+        ], 
+        "annotation": {
+            "shortName": "rostralanteriorcingulate", 
+            "ontologyReferences": {}, 
+            "name": "rostralanteriorcingulate", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#4b327d"
+        }, 
+        "@id": "rostralmiddlefrontal", 
+        "@type": "group", 
+        "members": [
+            "Left_rostralmiddlefrontal", 
+            "Right_rostralmiddlefrontal"
+        ], 
+        "annotation": {
+            "shortName": "rostralmiddlefrontal", 
+            "ontologyReferences": {}, 
+            "name": "rostralmiddlefrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#14dca0"
+        }, 
+        "@id": "superiorfrontal", 
+        "@type": "group", 
+        "members": [
+            "Left_superiorfrontal", 
+            "Right_superiorfrontal"
+        ], 
+        "annotation": {
+            "shortName": "superiorfrontal", 
+            "ontologyReferences": {}, 
+            "name": "superiorfrontal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#14b48c"
+        }, 
+        "@id": "superiorparietal", 
+        "@type": "group", 
+        "members": [
+            "Left_superiorparietal", 
+            "Right_superiorparietal"
+        ], 
+        "annotation": {
+            "shortName": "superiorparietal", 
+            "ontologyReferences": {}, 
+            "name": "superiorparietal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#8cdcdc"
+        }, 
+        "@id": "superiortemporal", 
+        "@type": "group", 
+        "members": [
+            "Left_superiortemporal", 
+            "Right_superiortemporal"
+        ], 
+        "annotation": {
+            "shortName": "superiortemporal", 
+            "ontologyReferences": {}, 
+            "name": "superiortemporal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#50a014"
+        }, 
+        "@id": "supramarginal", 
+        "@type": "group", 
+        "members": [
+            "Left_supramarginal", 
+            "Right_supramarginal"
+        ], 
+        "annotation": {
+            "shortName": "supramarginal", 
+            "ontologyReferences": {}, 
+            "name": "supramarginal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#640064"
+        }, 
+        "@id": "frontalpole", 
+        "@type": "group", 
+        "members": [
+            "Left_frontalpole", 
+            "Right_frontalpole"
+        ], 
+        "annotation": {
+            "shortName": "frontalpole", 
+            "ontologyReferences": {}, 
+            "name": "frontalpole", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#4614aa"
+        }, 
+        "@id": "temporalpole", 
+        "@type": "group", 
+        "members": [
+            "Left_temporalpole", 
+            "Right_temporalpole"
+        ], 
+        "annotation": {
+            "shortName": "temporalpole", 
+            "ontologyReferences": {}, 
+            "name": "temporalpole", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#9696c8"
+        }, 
+        "@id": "transversetemporal", 
+        "@type": "group", 
+        "members": [
+            "Left_transversetemporal", 
+            "Right_transversetemporal"
+        ], 
+        "annotation": {
+            "shortName": "transversetemporal", 
+            "ontologyReferences": {}, 
+            "name": "transversetemporal", 
+            "description": ""
+        }
+    }, 
+    {
+        "renderOptions": {
+            "color": "#ffc020"
+        }, 
+        "@id": "insula", 
+        "@type": "group", 
+        "members": [
+            "Left_insula", 
+            "Right_insula"
+        ], 
+        "annotation": {
+            "shortName": "insula", 
+            "ontologyReferences": {}, 
+            "name": "insula", 
+            "description": ""
+        }
+    }
+]
