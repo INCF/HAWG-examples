@@ -4,7 +4,9 @@
    "version" : "2",
    "coordinate_system" : "MNI_152",
 
-   "resource" : "file://structures.nii",
+   "datasource" : [
+      "source" : "file://structures.nii"
+   ]
 
    "structure" : [
       { "id" : "FAL",

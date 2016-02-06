@@ -1,5 +1,6 @@
-[{
-"@type": "header",
+{
+
+"header" : {
    "species": "mouse",
    "organ": "brain",
    "name" : "mouseDevelopmentalAtlas",
@@ -12,106 +13,107 @@
    "coordinate_system" : "self defined",
 },
 
-{
-"@id": "p01",
-"@type": "datasource",
-"mimeType": "application/x-minc",
-"source": "file:///P01.mnc",
-},
-{
-"@id": "p03",
-"@type": "datasource",
-"mimeType": "application/x-minc",
-"source": "file:///P03.mnc",
-},
-{
-"@id": "p05",
-"@type": "datasource",
-"mimeType": "application/x-minc-better-than-SPM",
-"source": "file:///P05.mnc",
-},
-{
-"@id": "p07",
-"@type": "datasource",
-"mimeType": "application/x-minc-still-better-than-SPM",
-"source": "file:///P07.mnc",
-},
+"datasource" : [
+   {
+      "id": "p01",
+      "mimeType": "application/x-minc",
+      "source": "file:///P01.mnc"
+   },
 
-{
-"@id": "hippocampus_l_p1",
-"@type": "structure",
-"sourceSelector" : {"data_key" : "12",
-                  "datasource" : "p01"},
-"annotation" : {
+   {
+      "id": "p03",
+      "mimeType": "application/x-minc",
+      "source": "file:///P03.mnc",
+   },
+
+   {
+      "@id": "p05",
+      "mimeType": "application/x-minc-better-than-SPM",
+      "source": "file:///P05.mnc",
+   },
+
+   {
+      "@id": "p07",
+      "mimeType": "application/x-minc-still-better-than-SPM",
+      "source": "file:///P07.mnc",
+   }
+]
+
+"structure" : [
+   {
+      "id": "hippocampus_l_p1",
+      "sourceSelector" : {
+         "data_key" : "12",
+         "datasource" : "p01"},
+
+      "annotation" : {
         "name": "left hippocampus p1",
         "shortName": "lHipP1",
-        "seeAlso" : "hippocampus",
-        },
-"renderOptions":{
-   "color": "rgba(12,13,14,128)",
-   "shininess": 0.5,
-  },
-},
+        "seeAlso" : "hippocampus"},
 
-{
-"@id": "hippocampus_l_p3",
-"@type": "structure",
-"sourceSelector" : {"dataKey" : "12",
-                  "datasource" : "p03"},
-"annotation" : {
+      "renderOptions":{
+         "color": "rgba(12,13,14,128)",
+         "shininess": 0.5,}
+   },
+
+   {
+      "id": "hippocampus_l_p3",
+      "sourceSelector" : {
+         "dataKey" : "12",
+         "datasource" : "p03"},
+
+      "annotation" : {
         "name": "left hippocampus p3",
         "shortName": "lHipP3",
-        "seeAlso" : "hippocampus",
-        },
-"renderOptions":{
-   "color": "rgba(12,14,14,128)",
-   "shininess": 0.5,
-  },
-},
+        "seeAlso" : "hippocampus"},
 
-{
-"@id": "hippocampus_l_p5",
-"@type": "structure",
-"sourceSelector" : {"dataKey" : "12",
-                  "datasource" : "p05"},
-"annotation" : {
+      "renderOptions" : {
+         "color": "rgba(12,14,14,128)",
+         "shininess": 0.5},
+   },
+
+   {
+      "id": "hippocampus_l_p5",
+      "sourceSelector" : {
+         "dataKey" : "12",
+         "datasource" : "p05"},
+
+      "annotation" : {
         "name": "left hippocampus p5",
         "shortName": "lHipP5",
-        "seeAlso" : "hippocampus",
-        },
-"renderOptions":{
-   "color": "rgba(12,15,14,128)",
-   "shininess": 0.5,
-  },
-},
+        "seeAlso" : "hippocampus"},
 
-{
-"@id": "hippocampus_l_p7",
-"@type": "structure",
-"sourceSelector" : {"dataKey" : "12",
-                  "datasource" : "p07"},
-"annotation" : {
+      "renderOptions" : {
+         "color": "rgba(12,15,14,128)",
+         "shininess": 0.5},
+   },
+
+   {
+      "id": "hippocampus_l_p7",
+      "sourceSelector" : {
+         "dataKey" : "12",
+         "datasource" : "p07"},
+
+      "annotation" : {
         "name": "left hippocampus p7",
         "shortName": "lHipP7",
-        "seeAlso" : "hippocampus",
-        },
-"renderOptions":{
-   "color": "rgba(12,16,14,128)",
-   "shininess": 0.5,
-  },
-},
+        "seeAlso" : "hippocampus"},
 
+      "renderOptions" : {
+         "color": "rgba(12,16,14,128)",
+         "shininess": 0.5},
+   },
+],
 
-{
-"@id" : "hippocampus",
-"type" : "tag",
-"annotation" : {
-        "name": "hippocampus",
-        "description": "it remembers stuff, don't cut it out.",
-        "shortName": "Hip",
-        "ontologyReferences": ["http://paxinos+watson.org/"],
-        },
-"members":["hippocampus_l_p1", "hippocampus_l_p3", "hippocampus_l_p5", "hippocampus_l_p7"],
-"renderOptions": "blue"
-}
+"groups" : [
+   {
+      "id" : "hippocampus",
+      "annotation" : {
+         "name": "hippocampus",
+         "description": "it remembers stuff, don't cut it out.",
+         "shortName": "Hip",
+         "ontologyReferences": ["http://paxinos+watson.org/"]},
+
+      "members" : ["hippocampus_l_p1", "hippocampus_l_p3", "hippocampus_l_p5", "hippocampus_l_p7"],
+   }
 ]
