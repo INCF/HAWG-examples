@@ -1,5 +1,7 @@
 [
    {
+      "@type": "header",
+      "@id": "NeuromorphometricsAtlas",
       "species" : "human",
       "hawgVersion" : "1.0",
       "license" : "CC BY-NC",
