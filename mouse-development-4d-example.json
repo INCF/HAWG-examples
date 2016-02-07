@@ -9,14 +9,14 @@
    "version" : "1",
    "contact" : "mailto:jason.lerch@gmail.com",
    "comment" : "this is a mouse developmental atlas",
-   "coordinate_system" : "self defined",
+   "coordinate_system" : "self defined"
 },
 
 {
 "@id": "p1-7",
 "@type": "datasource",
 "mimeType": "application/x-minc",
-"source": "file:///P1-7.mnc",
+"source": "file:///P1-7.mnc"
 },
 
 {
@@ -29,12 +29,12 @@
 "annotation" : {
         "name": "left hippocampus p1",
         "shortName": "lHipP1",
-        "seeAlso" : "hippocampus",
+        "seeAlso" : "hippocampus"
         },
 "renderOptions":{
    "color": "rgba(12,13,14,128)",
-   "shininess": 0.5,
-  },
+   "shininess": 0.5
+  }
 },
 
 {
@@ -47,12 +47,12 @@
 "annotation" : {
         "name": "left hippocampus p3",
         "shortName": "lHipP3",
-        "seeAlso" : "hippocampus",
+        "seeAlso" : "hippocampus"
         },
 "renderOptions":{
    "color": "rgba(12,14,14,128)",
-   "shininess": 0.5,
-  },
+   "shininess": 0.5
+  }
 },
 
 {
@@ -60,35 +60,35 @@
 "@type": "structure",
 "sourceSelector" : {"dataKey" : "12",
                   "frameDimension" : "3",
-                  "frameIndex", "2",
+                  "frameIndex" : "2",
                   "datasource" : "p1-7"},
 "annotation" : {
         "name": "left hippocampus p5",
         "shortName": "lHipP5",
-        "seeAlso" : "hippocampus",
+        "seeAlso" : "hippocampus"
         },
 "renderOptions":{
    "color": "rgba(12,15,14,128)",
-   "shininess": 0.5,
-  },
+   "shininess": 0.5
+  }
 },
 
 {
 "@id": "hippocampus_l_p7",
 "@type": "structure",
 "sourceSelector" : {"dataKey" : "12",
-                  "frameDimension" : "3"
-                  "frameIndex", "3",
+                  "frameDimension" : "3",
+                  "frameIndex" : "3",
                   "datasource" : "p1-7"},
 "annotation" : {
         "name": "left hippocampus p7",
         "shortName": "lHipP7",
-        "seeAlso" : "hippocampus",
+        "seeAlso" : "hippocampus"
         },
 "renderOptions":{
    "color": "rgba(12,16,14,128)",
-   "shininess": 0.5,
-  },
+   "shininess": 0.5
+  }
 },
 
 
@@ -99,7 +99,7 @@
         "name": "hippocampus",
         "description": "it remembers stuff, don't cut it out.",
         "shortName": "Hip",
-        "ontologyReferences": ["http://paxinos+watson.org/"],
+        "ontologyReferences": ["http://paxinos+watson.org/"]
         },
 "members":["hippocampus_l_p1", "hippocampus_l_p3", "hippocampus_l_p5", "hippocampus_l_p7"],
 "renderOptions": "blue"
