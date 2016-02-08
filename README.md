@@ -2,8 +2,8 @@
 
 ##HAWG - The Human Atlasing Working Group - example JSON atlas header files
 
-The idea of these examples is to create a common JSON header file format that describes the labels and metadata in an atlas such that re-use and integration between atlases is more easily possible across multiple software packages. There is currently no intention to change or specify the format of the atlas files themselves (Nifti-1, MINC, NRRD, etc) but rather just the descriptive metadata.
-
+The idea of these examples is to create a common JSON header file format that describes the labels and metadata in an atlas such that re-use and integration between atlases is more easily possible across multiple software packages. There is currently no intention to change or specify the format of the atlas files themselves (Nifti-1, MINC, NRRD, etc) but rather just the descriptive metadata. 
+For maximum compatibility with most of the software tools we strongly suggest Nifti-1.  
 
 ##Current members of the HAWG are:
 Mathew Abrams <mathew@incf.org>,
@@ -23,3 +23,8 @@ Lydia Ng <LydiaN@alleninstitute.org>,
 Jason Tourville <jtour@bu.edu>,
 Robert Vincent <robert.d.vincent@mcgill.ca>,
 Lilla Zollei <lzollei@nmr.mgh.harvard.edu>,
+Michael Halle <m@halle.us>,
+Valentin Demeusy <valentin.demeusy@gmail.com> 
+Daniel Glen <glend@mail.nih.gov>
+Richard Reynolds <reynoldr@mail.nih.gov>
+
