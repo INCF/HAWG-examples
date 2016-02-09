@@ -1,0 +1,51 @@
+# Lobe definitions for Louis Lobe Segment
+#
+030 FrntLb-L-WM
+210 FrntLb-L-GM
+017 FrntLb-R-WM
+211 FrntLb-R-RM
+#
+083 TempLb-L-WM
+218 TempLb-L-GM
+059 TempLb-R-WM
+219 TempLb-R-GM
+#
+057 PariLb-L-WM
+006 PariLb-L-GM
+105 PariLb-R-WM
+002 PariLb-R-GM
+#
+073 OcipLb-L-WM
+008 OcipLb-L-GM
+045 OcipLb-R-WM
+004 OcipLb-R-GM
+#
+067 Cerbellum-L
+076 Cerbellum-R
+020 BrainStem--
+#
+003 LatVentri-L
+009 LatVentri-R
+232 3rdVentricl
+233 4thVentricl
+255 ExtCerebCSF
+#
+039 Caudate-L--
+053 Caudate-R--
+#
+014 Putamen-L--
+016 Putamen-R--
+#
+102 Thalamus-L-
+203 Thalamus-R-
+#
+033 SbthalNuc-L
+023 SbthalNuc-R
+#
+012 GlobPalli-L
+011 GlobPalli-R
+#
+029 Fornix-L---
+254 Fornix-R---
+#
+#028 Skull (was - no longer used)
