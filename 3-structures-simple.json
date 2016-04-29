@@ -5,29 +5,30 @@
    "coordinate_system" : "MNI_152",
 
    "datasource" : [
-      "source" : "file://structures.nii"
-   ]
+      { "source" : "file://structures.nii"
+      }
+   ],
 
    "structure" : [
       { "id" : "FAL",
         "data_key" : 1,
         "display_name":"Precentral_L",
         "name" : "Temporal Lobe",
-        "colour" : "rgba(255,255,255,128)",
+        "colour" : "rgba(255,255,255,128)"
       },
 
       { "id" : "VER10",
         "data_key" : 2,
         "display_name" : "Vermis_10",
         "name" : "Temporal Lobe",
-        "colour" : "#ff3342",
+        "colour" : "#ff3342"
      },
 
       { "id" : "CA1",
         "data_key" : 3,
         "display_name":"hippo_CA1",
         "name" : "Hippocampus",
-        "colour" : "#ff3333",
+        "colour" : "#ff3333"
       }
    ]
 }
