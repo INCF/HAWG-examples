@@ -1,8 +1,8 @@
 [{
         "@type": "header",
         "@id":"HOS",
-        "species": "Homo Sapiens"
-        "organ": "brain"
+        "species": "Homo Sapiens",
+        "organ": "brain",
         "name": "Harvard-Oxford Subcortical Probability 2mm",
         "licence": "http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Licence",
         "citation": "doi:10.1016/j.biopsych.2006.06.027;doi:10.1016/j.neuroimage.2006.01.021",
@@ -15,7 +15,7 @@
     {
         "@id": "dataRef",
         "@type": "datasource",
-        "comment": "", #json can’ t handle multi - line 
+        "comment": "", #json can't handle multi - line 
         "mimeType": "application/x-nifti",
         "source": "NULL",
     }, 
