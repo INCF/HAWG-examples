@@ -4,15 +4,15 @@
 # This is quite verbose, and would be somewhat annoying for cases with much higher dimensionality, however it has the advantage 
   that each week of the atlas can be named in the json file rather than the application having to figure out a name on the fly
 
-# An alternative would be to allow the resources part of the structure dictionary to contain an atlas name like "prob1mm" 
-  and a list of lists such as [ ["0","3"] ,  ["1","3"] , ["2","3"] , ... , ["8","3"] ] and the "key_axis" within the "prob1mm" 
-  resource dictionary to contain a list ["4","5"].  This could then be interpreted as the structure (e.g. id1_MTG) being present 
-  within the prob1mm resource 9 times, such that the first instance has key "0" for axis "4" and key "3" for axis "5", the 
-  second instance has key "1" for axis "4" and key "3" for axis "5", etc.  This would require modification of the hawg_txt2json.py 
-  code (and its inverse) and would add a little extra complication for applications programmers, but I think might be a good 
-  alternative.  Or maybe both could be supported (though decisions like that add a lot more programming burden and potentially 
-  lead to inconsistent adoption in the wild and hence some software not supporting stuff that other software can and vice versa, 
-  but to some degree that sort of thing is inevitable)
+# An alternative (instead of the version below) would be to allow the resources part of the structure dictionary to contain an 
+  atlas name like "prob1mm" and a list of lists such as [ ["0","3"] ,  ["1","3"] , ["2","3"] , ... , ["8","3"] ] and the "key_axis" 
+  within the "prob1mm" resource dictionary to contain a list ["4","5"].  This could then be interpreted as the structure 
+  (e.g. id1_MTG) being present within the prob1mm resource 9 times, such that the first instance has key "0" for axis "4" and 
+  key "3" for axis "5", the second instance has key "1" for axis "4" and key "3" for axis "5", etc.  This would require 
+  modification of the hawg_txt2json.py code (and its inverse) and would add a little extra complication for applications 
+  programmers, but I think might be a good alternative.  Or maybe both could be supported (though decisions like that add a 
+  lot more programming burden and potentially lead to inconsistent adoption in the wild and hence some software not supporting 
+  stuff that other software can and vice versa, but to some degree that sort of thing is inevitable)
 
   "structures": {
     "id1_MTG": {
