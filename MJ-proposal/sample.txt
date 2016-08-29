@@ -1,0 +1,26 @@
+HEADER
+name	HarvardOxford-Cortical
+description	The HAWG version of the atlas
+species	Homo Sapiens
+version	1.0.0
+contact	fsl@fmrib.ox.ac.uk
+citation	doi:10.1016/j.neuroimage.2015.07.075;doi:10.1006/nimg.2001.0978[EXAMPLE_ONLY]
+license	http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Licence
+provenance	Some text or something more elaborate?
+coordinate_system	MNI152
+
+RESOURCES
+shortname	location	format	type	key_axis	nominal_resolution	name
+prob1mm	HarvardOxford/HarvardOxford-cort-prob-1mm.nii.gz	nifti	continuous	4	1mm	probability of cortical regions
+label1mm	HarvardOxford/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz	nifti	discrete	-	1mm	labels of cortical regions
+
+STRUCTURES
+shortname	access_key	example_coord	example_color	display_name	part_of	description
+id1_MTG	prob1mm:1;label1mm:11	23, 46, 96	255,255,0	Middle Temporal Gyrus, posterior division	MTG,Bilateral	Something jason comes up with			
+id2_MTG	prob1mm:2;label1mm:12	74,59,26	255,255,0	Middle Temporal Gyrus, posterior division	MTG,Bilateral	Something jason comes up with			
+
+TAGS
+shortname	display_name	includes	part_of	description
+MTG	Middle Temporal Gyrus	id1_MTG,id2_MTG	Cortex	Some other description from Jason
+
+

@@ -1,0 +1,79 @@
+# This is a very small example to demonstrate what a json hawg file might look like for an atlas like the Harvard-Oxford atlas that contains both a probabilistic and a labelled version of the same thing.  There are only two structures here and a single tag (with an unresolved reference to another - i.e. "Cortex") but I think it is enough to demonstrate the ideas.
+
+# Note that this was generated from the plain text (tsv) specification in sample.txt and used the python code hawg_txt2json.py and hence the order of things within dictionaries is random (and often not what I would have chosen by hand)
+
+
+{
+  "header": {
+    "provenance": "Some text or something more elaborate?", 
+    "name": "HarvardOxford-Cortical", 
+    "license": "http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Licence", 
+    "coordinate_system": "MNI152", 
+    "citation": "doi:10.1016/j.neuroimage.2015.07.075;doi:10.1006/nimg.2001.0978[EXAMPLE_ONLY]", 
+    "contact": "fsl@fmrib.ox.ac.uk", 
+    "version": "1.0.0", 
+    "species": "Homo Sapiens", 
+    "description": "The HAWG version of the atlas"
+  }, 
+  "structures": {
+    "id1_MTG": {
+      "prob1mm": {
+        "example_color": "255,255,0", 
+        "example_coord": "23, 46, 96", 
+        "key": "1"
+      }, 
+      "label1mm": {
+        "example_color": "255,255,0", 
+        "example_coord": "23, 46, 96", 
+        "key": "11"
+      }
+    }, 
+    "id2_MTG": {
+      "prob1mm": {
+        "example_color": "255,255,0", 
+        "example_coord": "74,59,26", 
+        "key": "2"
+      }, 
+      "label1mm": {
+        "example_color": "255,255,0", 
+        "example_coord": "74,59,26", 
+        "key": "12"
+      }
+    }
+  }, 
+  "resources": {
+    "prob1mm": {
+      "name": "probability of cortical regions", 
+      "key_axis": "4", 
+      "format": "nifti", 
+      "location": "HarvardOxford/HarvardOxford-cort-prob-1mm.nii.gz", 
+      "nominal_resolution": "1mm", 
+      "type": "continuous"
+    }, 
+    "label2mm": {
+      "name": "labels of cortical regions", 
+      "format": "nifti", 
+      "location": "HarvardOxford/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz", 
+      "nominal_resolution": "2mm", 
+      "type": "discrete"
+    }
+  }, 
+  "tags": {
+    "id1_MTG": {
+      "part_of": "MTG,Bilateral", 
+      "display_name": "Middle Temporal Gyrus, posterior division", 
+      "description": "Something jason comes up with"
+    }, 
+    "MTG": {
+      "part_of": "Cortex", 
+      "display_name": "Middle Temporal Gyrus", 
+      "description": "Some other description from Jason", 
+      "includes": "id1_MTG,id2_MTG"
+    }, 
+    "id2_MTG": {
+      "part_of": "MTG,Bilateral", 
+      "display_name": "Middle Temporal Gyrus, posterior division", 
+      "description": "Something jason comes up with"
+    }
+  }
+}
