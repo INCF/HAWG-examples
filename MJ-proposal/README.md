@@ -10,7 +10,15 @@ I don't have strong views (mostly) on naming or implementational details, so ple
  
 ## Files
 
-The files contained here are: (i) an example json file (sample.json); (ii) an extra json snippet showing a variant for a developments (5D) atlas (sample_mods.json); (iii) example plain text (tsv) short specification file (sample.txt); (iv) python code to convert tsv to json (hawg_txt2json.py); (v) python snippets to show how to extract useful info from hawg python dictionary structure (example_code.py); (vi) python code to convert hawg json file to tsv file (hawg_json2txt.py).  I've also written a summary of the proposed format and my rationale in coming up with it, plus a few extra bits (see below).
+The files contained here are: 
+ (i) an example json file (sample.json); 
+ (ii) an extra json snippet showing a variant for a developments (5D) atlas (sample_mods.json); 
+ (iii) example plain text (tsv) short specification file (sample.txt); 
+ (iv) python code to convert tsv to json (hawg_txt2json.py); 
+ (v) python snippets to show how to extract useful info from hawg python dictionary structure (example_code.py); 
+ (vi) python code to convert hawg json file to tsv file (hawg_json2txt.py).  
+ 
+I've also written a summary of the proposed format and my rationale in coming up with it, plus a few extra bits (see below).
  
 ## Fundamental principles:
 
