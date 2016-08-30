@@ -6,6 +6,8 @@
 # The "access_key" in "STRUCTURES" can be as specified below (the most general form) or a simpler form: a list of keys like "1,11" 
 #   where the order of the keys must correspond to the order to the resources listed under "RESOURCES".  The python conversion tool
 #   already caters for this.  For a more complicated situation (5D atlas) see the sample_mods.json file.
+# We probably need some more info for example_coord (to transform it between resources) or force it to be a list with one
+#   entry per resource - e.g. "23,46,96;23,46,96"   (this is currently not implemented in the conversion tool but would be simple)
 
 HEADER
 name	HarvardOxford-Cortical
