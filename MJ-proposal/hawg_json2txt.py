@@ -16,7 +16,7 @@ td=fulldict['tags']
 for s in sd:
     rstr=""   # show access info in dictionary format (for generality)
     for k in sd[s]:
-        rstr+=";"+k+":"+sd[s][k]
+        rstr+=";"+k+":"+sd[s][k].get('key','')
     print('%s	%s	%s	%s	%s	%s	%s' % (s,rstr[1:],sd[s][k].get('example_coord','-'),sd[s][k].get('example_color','-'),td[s].get('display_name','-'),td[s].get('part_of','-'),td[s].get('description','-')))
 
 print('\nTAGS')
