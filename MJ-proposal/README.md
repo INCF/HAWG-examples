@@ -27,7 +27,7 @@ I've also written a summary of the proposed format and my rationale in coming up
  - There are four main sections of information: header, resources, structures and tags
    - header: captures top-level info relevant for the whole conceptual atlas (often several related data-files)
    - resources: one per data-file/web-address/resource used to access data, each containing information needed to determine how to get the necessary data
-   - structures: one per fundamental structure/unit stored by the atlas and contains only the information related to accessing that data from the resource and displaying it (other info in tags - see next)
+   - structures: one per fundamental structure/unit stored by the atlas and contains only the information related to accessing that data from the resource and displaying it, with one set of info per resource (other info in tags - see next)
     - tags: one per scientific region/unit/meta-object of the atlas, including one for each fundamental structure/unit (with identical short-name/id as in "structures"). This is where all the scientific information (e.g. names, references, relationships) exists and is separate from information about access and display.
  
 So there is replication of structure info between "structures" and "tags" but I think it is helpful to separate data/file/storage-related issues from the scientific/conceptual info.  A simple atlas without any "tags" would still have N items in both "structures" and "tags" but this does not have to specify any relationships between them.  However, if a hierarchy (or non-hierarchical-relationship-web/mess) is specified then all the information needed to build the graph that represents this (nodes and edges) is purely within the "tags" part of the spec.
