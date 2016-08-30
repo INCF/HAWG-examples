@@ -5,6 +5,12 @@
 # Note that this was generated from the plain text (tsv) specification in sample.txt and used the python code 
   hawg_txt2json.py and hence the order of things within dictionaries is random (and often not what I would have chosen by hand)
 
+# The "key" value in the structure information would be interpreted according to the format of the resource (see readme)
+# For web-based atlases the "key" could be extra information to specify a URL - e.g. the "resource" could contain a list 
+  of fixed strings and the "structure / key" part could contain another list of strings that was zipped together with the
+  fixed strings to form a full url: 
+    e.g., zip ["http://atlas.brain-map.org/atlas?plate=","&structure=","&x=","&y=","&zoom=","&resolution=","&z="]
+          and ["100884129","1037","7799.985210712139","4023.9889585054834","-3","16.11","5"]
 
 {
   "header": {
