@@ -1,6 +1,9 @@
-# This is a very small example to demonstrate what a json hawg file might look like for an atlas like the Harvard-Oxford atlas that contains both a probabilistic and a labelled version of the same thing.  There are only two structures here and a single tag (with an unresolved reference to another - i.e. "Cortex") but I think it is enough to demonstrate the ideas.
+# This is a very small example to demonstrate what a json hawg file might look like for an atlas like the Harvard-Oxford 
+  atlas that contains both a probabilistic and a labelled version of the same thing.  There are only two structures here 
+  and a single tag (with an unresolved reference to another - i.e. "Cortex") but I think it is enough to demonstrate the ideas.
 
-# Note that this was generated from the plain text (tsv) specification in sample.txt and used the python code hawg_txt2json.py and hence the order of things within dictionaries is random (and often not what I would have chosen by hand)
+# Note that this was generated from the plain text (tsv) specification in sample.txt and used the python code 
+  hawg_txt2json.py and hence the order of things within dictionaries is random (and often not what I would have chosen by hand)
 
 
 {
