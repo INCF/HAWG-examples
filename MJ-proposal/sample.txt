@@ -1,3 +1,12 @@
+# Example text file description of an atlas (something like the Harvard-Oxford atlas, but only 2 structures for example)
+# The conversion tool will ignore blank lines and comments like this
+# Each main section is hopefully fairly self explanatory, with the header done differently (key + value per line) from others
+# Other sections contain a header line specifying the relevant dictionary keys  (should have standard names, but can be flexibile too)
+# The keys in the "STRUCTURES" section here include info that will go into either the "structures" dict or "tags" dict or both
+# The "access_key" in "STRUCTURES" can be as specified below (the most general form) or a simpler form: a list of keys like "1,11" 
+#   where the order of the keys must correspond to the order to the resources listed under "RESOURCES".  The python conversion tool
+#   already caters for this.  For a more complicated situation (5D atlas) see the sample_mods.json file.
+
 HEADER
 name	HarvardOxford-Cortical
 description	The HAWG version of the atlas
@@ -16,7 +25,7 @@ label1mm	HarvardOxford/HarvardOxford-cort-maxprob-thr25-1mm.nii.gz	nifti	discret
 
 STRUCTURES
 shortname	access_key	example_coord	example_color	display_name	part_of	description
-id1_MTG	prob1mm:1;label1mm:11	23, 46, 96	255,255,0	Middle Temporal Gyrus, posterior division	MTG,Bilateral	Something jason comes up with			
+id1_MTG	prob1mm:1;label1mm:11	23,46,96	255,255,0	Middle Temporal Gyrus, posterior division	MTG,Bilateral	Something jason comes up with			
 id2_MTG	prob1mm:2;label1mm:12	74,59,26	255,255,0	Middle Temporal Gyrus, posterior division	MTG,Bilateral	Something jason comes up with			
 
 TAGS
