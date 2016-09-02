@@ -25,27 +25,27 @@
     "description": "The HAWG version of the atlas"
   }, 
   "structures": {
-    "id1_MTG": {
+    "pMTG": {
       "prob1mm": {
-        "example_color": "255,255,0", 
-        "example_coord": "23, 46, 96", 
+        "example_color": [255,255,0], 
+        "example_coord": [23,46,96], 
         "key": "1"
       }, 
       "label1mm": {
-        "example_color": "255,255,0", 
-        "example_coord": "23, 46, 96", 
+        "example_color": [255,255,0], 
+        "example_coord": [23,46,96], 
         "key": "11"
       }
     }, 
-    "id2_MTG": {
+    "aMTG": {
       "prob1mm": {
-        "example_color": "255,255,0", 
-        "example_coord": "74,59,26", 
+        "example_color": [255,255,0], 
+        "example_coord": [74,59,26], 
         "key": "2"
       }, 
       "label1mm": {
-        "example_color": "255,255,0", 
-        "example_coord": "74,59,26", 
+        "example_color": [255,255,0], 
+        "example_coord": [74,59,26], 
         "key": "12"
       }
     }
@@ -68,20 +68,20 @@
     }
   }, 
   "tags": {
-    "id1_MTG": {
-      "part_of": "MTG,Bilateral", 
+    "pMTG": {
+      "part_of": ["MTG","Bilateral"], 
       "display_name": "Middle Temporal Gyrus, posterior division", 
       "description": "Something jason comes up with"
     }, 
     "MTG": {
-      "part_of": "Cortex", 
+      "part_of": ["Cortex"], 
       "display_name": "Middle Temporal Gyrus", 
       "description": "Some other description from Jason", 
-      "includes": "id1_MTG,id2_MTG"
+      "includes": ["pMTG","aMTG"]
     }, 
-    "id2_MTG": {
-      "part_of": "MTG,Bilateral", 
-      "display_name": "Middle Temporal Gyrus, posterior division", 
+    "aMTG": {
+      "part_of": ["MTG","Bilateral"], 
+      "display_name": "Middle Temporal Gyrus, anterior division", 
       "description": "Something jason comes up with"
     }
   }
