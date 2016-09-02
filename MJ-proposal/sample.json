@@ -24,32 +24,6 @@
     "species": "Homo Sapiens", 
     "description": "The HAWG version of the atlas"
   }, 
-  "structures": {
-    "pMTG": {
-      "prob1mm": {
-        "example_color": [255,255,0], 
-        "example_coord": [23,46,96], 
-        "key": "1"
-      }, 
-      "label1mm": {
-        "example_color": [255,255,0], 
-        "example_coord": [23,46,96], 
-        "key": "11"
-      }
-    }, 
-    "aMTG": {
-      "prob1mm": {
-        "example_color": [255,255,0], 
-        "example_coord": [74,59,26], 
-        "key": "2"
-      }, 
-      "label1mm": {
-        "example_color": [255,255,0], 
-        "example_coord": [74,59,26], 
-        "key": "12"
-      }
-    }
-  }, 
   "resources": {
     "prob1mm": {
       "name": "probability of cortical regions", 
@@ -67,12 +41,23 @@
       "type": "discrete"
     }
   }, 
-  "tags": {
+  "ofkat": {
     "pMTG": {
       "part_of": ["MTG","Bilateral"], 
       "display_name": "Middle Temporal Gyrus, posterior division", 
       "description": "Something jason comes up with"
-    }, 
+      "resources": {
+        "prob1mm": {
+          "example_color": [255,255,0], 
+          "example_coord": [23,46,96], 
+          "key": "1"
+        }, 
+        "label1mm": {
+          "example_color": [255,255,0], 
+          "example_coord": [23,46,96], 
+          "key": "11"
+        }
+      }    }, 
     "MTG": {
       "part_of": ["Cortex"], 
       "display_name": "Middle Temporal Gyrus", 
@@ -82,7 +67,19 @@
     "aMTG": {
       "part_of": ["MTG","Bilateral"], 
       "display_name": "Middle Temporal Gyrus, anterior division", 
-      "description": "Something jason comes up with"
+      "description": "Something jason comes up with",
+      "resources": {
+        "prob1mm": {
+          "example_color": [255,255,0], 
+          "example_coord": [74,59,26], 
+          "key": "2"
+        }, 
+        "label1mm": {
+          "example_color": [255,255,0], 
+          "example_coord": [74,59,26], 
+          "key": "12"
+        }
+      }
     }
   }
 }
