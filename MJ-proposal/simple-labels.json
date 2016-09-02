@@ -1,0 +1,51 @@
+{
+  "header": {
+    "provenance": "Some text or something more elaborate?", 
+    "name": "HarvardOxford-Cortical", 
+    "license": "http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Licence", 
+    "coordinate_system": "MNI152", 
+    "citation": "doi:10.1016/j.neuroimage.2015.07.075;doi:10.1006/nimg.2001.0978[EXAMPLE_ONLY]", 
+    "contact": "fsl@fmrib.ox.ac.uk", 
+    "version": "1.0.0", 
+    "species": "Homo Sapiens", 
+    "description": "The HAWG version of the atlas"
+  }, 
+  "resources": {
+    "label1mm": {
+      "name": "discrete labels of cortical regions", 
+      "format": "nifti", 
+      "type": "discrete"
+    } 
+  }, 
+  "ofkat": {
+    "pMTG": {
+      "part_of": ["MTG","Bilateral"], 
+      "display_name": "Middle Temporal Gyrus, posterior division", 
+      "description": "Something jason comes up with"
+      "resources": {
+        "label1mm": {
+          "example_color": [255,255,0], 
+          "example_coord": [23,46,96], 
+          "key": "1"
+        }
+      }, 
+    "MTG": {
+      "part_of": ["Cortex"], 
+      "display_name": "Middle Temporal Gyrus", 
+      "description": "Some other description from Jason", 
+      "includes": ["pMTG","aMTG"]
+    }, 
+    "aMTG": {
+      "part_of": ["MTG","Bilateral"], 
+      "display_name": "Middle Temporal Gyrus, anterior division", 
+      "description": "Something jason comes up with",
+      "resources": {
+        "label1mm": {
+          "example_color": [255,255,0], 
+          "example_coord": [74,59,26], 
+          "key": "2"
+        } 
+      }
+    }
+  }
+}
