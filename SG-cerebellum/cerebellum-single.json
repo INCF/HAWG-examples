@@ -1,0 +1,826 @@
+{
+  "header": {
+    "citation": "",
+    "contact": "satra@mit.edu",
+    "description": "HAWG version of a single human cerebellar atlas",
+    "license": "PDDL",
+    "name": "Cerebellum Human 1",
+    "provenance": "Some text or something more elaborate?",
+    "species": "Homo Sapiens",
+    "version": "1.0.0"
+  },
+  "ofkat": {
+    "Left_CrusI": {
+      "description": "Jason: Left_CrusI",
+      "display_name": "Left CrusI",
+      "part_of": [
+        "Lobule_CrusI"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            222,
+            127,
+            246
+          ],
+          "example_coord": [
+            7,
+            53,
+            48
+          ],
+          "key": 8
+        }
+      }
+    },
+    "Left_CrusII": {
+      "description": "Jason: Left_CrusII",
+      "display_name": "Left CrusII",
+      "part_of": [
+        "Lobule_CrusII"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            4,
+            95,
+            215
+          ],
+          "example_coord": [
+            17,
+            51,
+            28
+          ],
+          "key": 11
+        }
+      }
+    },
+    "Left_I-IV": {
+      "description": "Jason: Left_I-IV",
+      "display_name": "Left I-IV",
+      "part_of": [
+        "Lobule_I-IV"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            176,
+            219,
+            1
+          ],
+          "example_coord": [
+            40,
+            78,
+            49
+          ],
+          "key": 1
+        }
+      }
+    },
+    "Left_IX": {
+      "description": "Jason: Left_IX",
+      "display_name": "Left IX",
+      "part_of": [
+        "Lobule_IX"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            142,
+            164,
+            153
+          ],
+          "example_coord": [
+            40,
+            73,
+            38
+          ],
+          "key": 23
+        }
+      }
+    },
+    "Left_V": {
+      "description": "Jason: Left_V",
+      "display_name": "Left V",
+      "part_of": [
+        "Lobule_V"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            147,
+            215,
+            108
+          ],
+          "example_coord": [
+            33,
+            72,
+            48
+          ],
+          "key": 3
+        }
+      }
+    },
+    "Left_VI": {
+      "description": "Jason: Left_VI",
+      "display_name": "Left VI",
+      "part_of": [
+        "Lobule_VI"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            55,
+            227,
+            149
+          ],
+          "example_coord": [
+            21,
+            68,
+            49
+          ],
+          "key": 5
+        }
+      }
+    },
+    "Left_VIIIa": {
+      "description": "Jason: Left_VIIIa",
+      "display_name": "Left VIIIa",
+      "part_of": [
+        "Lobule_VIIIa"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            140,
+            84,
+            227
+          ],
+          "example_coord": [
+            30,
+            64,
+            28
+          ],
+          "key": 17
+        }
+      }
+    },
+    "Left_VIIIb": {
+      "description": "Jason: Left_VIIIb",
+      "display_name": "Left VIIIb",
+      "part_of": [
+        "Lobule_VIIIb"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            65,
+            243,
+            208
+          ],
+          "example_coord": [
+            36,
+            63,
+            26
+          ],
+          "key": 20
+        }
+      }
+    },
+    "Left_VIIb": {
+      "description": "Jason: Left_VIIb",
+      "display_name": "Left VIIb",
+      "part_of": [
+        "Lobule_VIIb"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            248,
+            158,
+            248
+          ],
+          "example_coord": [
+            20,
+            46,
+            26
+          ],
+          "key": 14
+        }
+      }
+    },
+    "Left_X": {
+      "description": "Jason: Left_X",
+      "display_name": "Left X",
+      "part_of": [
+        "Lobule_X"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            35,
+            215,
+            103
+          ],
+          "example_coord": [
+            37,
+            70,
+            33
+          ],
+          "key": 26
+        }
+      }
+    },
+    "Lobule_CrusI": {
+      "description": "Jason: Lobule_CrusI",
+      "display_name": "Lobule CrusI",
+      "includes": [
+        "Left_CrusI",
+        "Vermis_CrusI",
+        "Right_CrusI"
+      ],
+      "part_of": [
+        "Cerebellum"
+      ],
+      "resources": {
+        "example_color": [
+          0,
+          236,
+          230
+        ]
+      }
+    },
+    "Lobule_CrusII": {
+      "description": "Jason: Lobule_CrusII",
+      "display_name": "Lobule CrusII",
+      "includes": [
+        "Left_CrusII",
+        "Vermis_CrusII",
+        "Right_CrusII"
+      ],
+      "part_of": [
+        "Cerebellum"
+      ],
+      "resources": {
+        "example_color": [
+          234,
+          140,
+          194
+        ]
+      }
+    },
+    "Lobule_I-IV": {
+      "description": "Jason: Lobule_I-IV",
+      "display_name": "Lobule I-IV",
+      "includes": [
+        "Left_I-IV",
+        "Right_I-IV"
+      ],
+      "part_of": [
+        "Cerebellum"
+      ],
+      "resources": {
+        "example_color": [
+          138,
+          160,
+          136
+        ]
+      }
+    },
+    "Lobule_IX": {
+      "description": "Jason: Lobule_IX",
+      "display_name": "Lobule IX",
+      "includes": [
+        "Left_IX",
+        "Vermis_IX",
+        "Right_IX"
+      ],
+      "part_of": [
+        "Cerebellum"
+      ],
+      "resources": {
+        "example_color": [
+          121,
+          65,
+          142
+        ]
+      }
+    },
+    "Lobule_V": {
+      "description": "Jason: Lobule_V",
+      "display_name": "Lobule V",
+      "includes": [
+        "Left_V",
+        "Right_V"
+      ],
+      "part_of": [
+        "Cerebellum"
+      ],
+      "resources": {
+        "example_color": [
+          56,
+          172,
+          1
+        ]
+      }
+    },
+    "Lobule_VI": {
+      "description": "Jason: Lobule_VI",
+      "display_name": "Lobule VI",
+      "includes": [
+        "Left_VI",
+        "Vermis_VI",
+        "Right_VI"
+      ],
+      "part_of": [
+        "Cerebellum"
+      ],
+      "resources": {
+        "example_color": [
+          77,
+          29,
+          233
+        ]
+      }
+    },
+    "Lobule_VIIIa": {
+      "description": "Jason: Lobule_VIIIa",
+      "display_name": "Lobule VIIIa",
+      "includes": [
+        "Left_VIIIa",
+        "Vermis_VIIIa",
+        "Right_VIIIa"
+      ],
+      "part_of": [
+        "Cerebellum"
+      ],
+      "resources": {
+        "example_color": [
+          146,
+          226,
+          192
+        ]
+      }
+    },
+    "Lobule_VIIIb": {
+      "description": "Jason: Lobule_VIIIb",
+      "display_name": "Lobule VIIIb",
+      "includes": [
+        "Left_VIIIb",
+        "Vermis_VIIIb",
+        "Right_VIIIb"
+      ],
+      "part_of": [
+        "Cerebellum"
+      ],
+      "resources": {
+        "example_color": [
+          174,
+          87,
+          107
+        ]
+      }
+    },
+    "Lobule_VIIb": {
+      "description": "Jason: Lobule_VIIb",
+      "display_name": "Lobule VIIb",
+      "includes": [
+        "Left_VIIb",
+        "Vermis_VIIb",
+        "Right_VIIb"
+      ],
+      "part_of": [
+        "Cerebellum"
+      ],
+      "resources": {
+        "example_color": [
+          141,
+          71,
+          209
+        ]
+      }
+    },
+    "Lobule_X": {
+      "description": "Jason: Lobule_X",
+      "display_name": "Lobule X",
+      "includes": [
+        "Left_X",
+        "Vermis_X",
+        "Right_X"
+      ],
+      "part_of": [
+        "Cerebellum"
+      ],
+      "resources": {
+        "example_color": [
+          147,
+          113,
+          239
+        ]
+      }
+    },
+    "Right_CrusI": {
+      "description": "Jason: Right_CrusI",
+      "display_name": "Right CrusI",
+      "part_of": [
+        "Lobule_CrusI"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            220,
+            52,
+            120
+          ],
+          "example_coord": [
+            78,
+            30,
+            58
+          ],
+          "key": 10
+        }
+      }
+    },
+    "Right_CrusII": {
+      "description": "Jason: Right_CrusII",
+      "display_name": "Right CrusII",
+      "part_of": [
+        "Lobule_CrusII"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            5,
+            234,
+            228
+          ],
+          "example_coord": [
+            71,
+            26,
+            51
+          ],
+          "key": 13
+        }
+      }
+    },
+    "Right_I-IV": {
+      "description": "Jason: Right_I-IV",
+      "display_name": "Right I-IV",
+      "part_of": [
+        "Lobule_I-IV"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            237,
+            88,
+            152
+          ],
+          "example_coord": [
+            71,
+            51,
+            84
+          ],
+          "key": 2
+        }
+      }
+    },
+    "Right_IX": {
+      "description": "Jason: Right_IX",
+      "display_name": "Right IX",
+      "part_of": [
+        "Lobule_IX"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            231,
+            94,
+            150
+          ],
+          "example_coord": [
+            71,
+            40,
+            39
+          ],
+          "key": 25
+        }
+      }
+    },
+    "Right_V": {
+      "description": "Jason: Right_V",
+      "display_name": "Right V",
+      "part_of": [
+        "Lobule_V"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            15,
+            185,
+            220
+          ],
+          "example_coord": [
+            71,
+            44,
+            69
+          ],
+          "key": 4
+        }
+      }
+    },
+    "Right_VI": {
+      "description": "Jason: Right_VI",
+      "display_name": "Right VI",
+      "part_of": [
+        "Lobule_VI"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            192,
+            117,
+            91
+          ],
+          "example_coord": [
+            71,
+            43,
+            71
+          ],
+          "key": 7
+        }
+      }
+    },
+    "Right_VIIIa": {
+      "description": "Jason: Right_VIIIa",
+      "display_name": "Right VIIIa",
+      "part_of": [
+        "Lobule_VIIIa"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            23,
+            233,
+            205
+          ],
+          "example_coord": [
+            71,
+            35,
+            45
+          ],
+          "key": 19
+        }
+      }
+    },
+    "Right_VIIIb": {
+      "description": "Jason: Right_VIIIb",
+      "display_name": "Right VIIIb",
+      "part_of": [
+        "Lobule_VIIIb"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            95,
+            133,
+            211
+          ],
+          "example_coord": [
+            77,
+            40,
+            38
+          ],
+          "key": 22
+        }
+      }
+    },
+    "Right_VIIb": {
+      "description": "Jason: Right_VIIb",
+      "display_name": "Right VIIb",
+      "part_of": [
+        "Lobule_VIIb"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            47,
+            41,
+            95
+          ],
+          "example_coord": [
+            75,
+            35,
+            49
+          ],
+          "key": 16
+        }
+      }
+    },
+    "Right_X": {
+      "description": "Jason: Right_X",
+      "display_name": "Right X",
+      "part_of": [
+        "Lobule_X"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            32,
+            187,
+            98
+          ],
+          "example_coord": [
+            72,
+            62,
+            40
+          ],
+          "key": 28
+        }
+      }
+    },
+    "Vermis_CrusI": {
+      "description": "Jason: Vermis_CrusI",
+      "display_name": "Vermis CrusI",
+      "part_of": [
+        "Lobule_CrusI"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            88,
+            162,
+            230
+          ],
+          "example_coord": [
+            64,
+            28,
+            62
+          ],
+          "key": 9
+        }
+      }
+    },
+    "Vermis_CrusII": {
+      "description": "Jason: Vermis_CrusII",
+      "display_name": "Vermis CrusII",
+      "part_of": [
+        "Lobule_CrusII"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            59,
+            173,
+            128
+          ],
+          "example_coord": [
+            64,
+            34,
+            56
+          ],
+          "key": 12
+        }
+      }
+    },
+    "Vermis_IX": {
+      "description": "Jason: Vermis_IX",
+      "display_name": "Vermis IX",
+      "part_of": [
+        "Lobule_IX"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            241,
+            155,
+            68
+          ],
+          "example_coord": [
+            62,
+            47,
+            43
+          ],
+          "key": 24
+        }
+      }
+    },
+    "Vermis_VI": {
+      "description": "Jason: Vermis_VI",
+      "display_name": "Vermis VI",
+      "part_of": [
+        "Lobule_VI"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            176,
+            120,
+            106
+          ],
+          "example_coord": [
+            64,
+            31,
+            65
+          ],
+          "key": 6
+        }
+      }
+    },
+    "Vermis_VIIIa": {
+      "description": "Jason: Vermis_VIIIa",
+      "display_name": "Vermis VIIIa",
+      "part_of": [
+        "Lobule_VIIIa"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            44,
+            203,
+            120
+          ],
+          "example_coord": [
+            60,
+            43,
+            44
+          ],
+          "key": 18
+        }
+      }
+    },
+    "Vermis_VIIIb": {
+      "description": "Jason: Vermis_VIIIb",
+      "display_name": "Vermis VIIIb",
+      "part_of": [
+        "Lobule_VIIIb"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            34,
+            44,
+            255
+          ],
+          "example_coord": [
+            60,
+            44,
+            44
+          ],
+          "key": 21
+        }
+      }
+    },
+    "Vermis_VIIb": {
+      "description": "Jason: Vermis_VIIb",
+      "display_name": "Vermis VIIb",
+      "part_of": [
+        "Lobule_VIIb"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            118,
+            168,
+            68
+          ],
+          "example_coord": [
+            64,
+            36,
+            54
+          ],
+          "key": 15
+        }
+      }
+    },
+    "Vermis_X": {
+      "description": "Jason: Vermis_X",
+      "display_name": "Vermis X",
+      "part_of": [
+        "Lobule_X"
+      ],
+      "resources": {
+        "labelsrc": {
+          "example_color": [
+            44,
+            146,
+            0
+          ],
+          "example_coord": [
+            65,
+            60,
+            48
+          ],
+          "key": 27
+        }
+      }
+    }
+  },
+  "resources": {
+    "labelsrc": {
+      "format": "nifti",
+      "location": "chuman_1.nii",
+      "name": "discrete labels of cortical regions",
+      "type": "discrete"
+    }
+  }
+}
